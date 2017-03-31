@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2017.1.17)  31 MAR 2017 01:47
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2017.1.17)  31 MAR 2017 04:01
 entering extended mode
 **ME533_Report.tex
 ("C:\Users\Ryan Lam\Documents\GitHub\ME533-Report\ME533_Report.tex"
@@ -191,11 +190,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 ("C:\Program Files (x86)\LaTeX\tex\latex\multirow\multirow.sty"
 \bigstrutjot=\dimen114
 )
-("C:\Users\Ryan Lam\Documents\GitHub\ME533-Report\ME533_Report.aux"
-
-LaTeX Warning: Label `tab:CalculatedValues' multiply defined.
-
-)
+("C:\Users\Ryan Lam\Documents\GitHub\ME533-Report\ME533_Report.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
@@ -208,7 +203,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
- ("C:\Program Files (x86)\LaTeX\tex\context\base\supp-pdf.mkii"
+
+("C:\Program Files (x86)\LaTeX\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count100
 \scratchdimen=\dimen115
@@ -308,12 +304,22 @@ ine 109.
 /Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/PBT-11-TRANSVERSE-WITH-LA
 BEL.png> <C:/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/PBT-12-TRANSV
 ERSE-COMBINED.png>]
-Overfull \hbox (5.35696pt too wide) in paragraph at lines 139--148
- [] 
+Underfull \hbox (badness 2285) in paragraph at lines 144--144
+[]\OT1/cmr/m/n/10.95 Young's Mod-u-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
+[]$\OML/cmm/m/it/10.95 []$\OT1/cmr/m/n/10.95 , Frac-ture
+ []
+
+
+Underfull \hbox (badness 4242) in paragraph at lines 144--145
+[]\OT1/cmr/m/n/10.95 Shear Mod-u-lus
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 195--197
+Underfull \hbox (badness 10000) in paragraph at lines 198--200
 
  []
 
@@ -321,10 +327,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 195--197
 File: figures/PBT9_Tensile.png Graphic file (type png)
 
 <use figures/PBT9_Tensile.png>
-Package pdftex.def Info: figures/PBT9_Tensile.png used on input line 220.
+Package pdftex.def Info: figures/PBT9_Tensile.png used on input line 223.
 (pdftex.def)             Requested size: 405.07161pt x 268.32823pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--223
+Underfull \hbox (badness 10000) in paragraph at lines 219--226
 
  []
 
@@ -332,14 +338,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 216--223
 File: figures/PBT9_Fail.png Graphic file (type png)
 
 <use figures/PBT9_Fail.png>
-Package pdftex.def Info: figures/PBT9_Fail.png used on input line 227.
+Package pdftex.def Info: figures/PBT9_Fail.png used on input line 230.
 (pdftex.def)             Requested size: 405.07161pt x 263.02205pt.
 
 <figures/PBT11_Tensile.png, id=53, 532.99126pt x 344.78813pt>
 File: figures/PBT11_Tensile.png Graphic file (type png)
 
 <use figures/PBT11_Tensile.png>
-Package pdftex.def Info: figures/PBT11_Tensile.png used on input line 234.
+Package pdftex.def Info: figures/PBT11_Tensile.png used on input line 237.
 (pdftex.def)             Requested size: 405.07161pt x 262.04695pt.
  [9 <C:/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/PBT9_Tensile.png> 
 <C:/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/PBT9_Fail.png>]
@@ -347,14 +353,14 @@ Package pdftex.def Info: figures/PBT11_Tensile.png used on input line 234.
 File: figures/PBT11_Fail.png Graphic file (type png)
 
 <use figures/PBT11_Fail.png>
-Package pdftex.def Info: figures/PBT11_Fail.png used on input line 241.
+Package pdftex.def Info: figures/PBT11_Fail.png used on input line 244.
 (pdftex.def)             Requested size: 405.07161pt x 268.72752pt.
 
 <figures/PBT12_Tensile.png, id=60, 536.0025pt x 341.02406pt>
 File: figures/PBT12_Tensile.png Graphic file (type png)
 
 <use figures/PBT12_Tensile.png>
-Package pdftex.def Info: figures/PBT12_Tensile.png used on input line 248.
+Package pdftex.def Info: figures/PBT12_Tensile.png used on input line 251.
 (pdftex.def)             Requested size: 405.07161pt x 257.71877pt.
  [10 <C:/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/PBT11_Tensile.png
 > <C:/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/PBT11_Fail.png>]
@@ -362,14 +368,14 @@ Package pdftex.def Info: figures/PBT12_Tensile.png used on input line 248.
 File: figures/PBT12_Fail.png Graphic file (type png)
 
 <use figures/PBT12_Fail.png>
-Package pdftex.def Info: figures/PBT12_Fail.png used on input line 255.
+Package pdftex.def Info: figures/PBT12_Fail.png used on input line 258.
 (pdftex.def)             Requested size: 405.07161pt x 260.90263pt.
 
 <figures/PBT14_Tensile.png, id=67, 527.72156pt x 342.5297pt>
 File: figures/PBT14_Tensile.png Graphic file (type png)
 
 <use figures/PBT14_Tensile.png>
-Package pdftex.def Info: figures/PBT14_Tensile.png used on input line 264.
+Package pdftex.def Info: figures/PBT14_Tensile.png used on input line 267.
 (pdftex.def)             Requested size: 405.07161pt x 262.91765pt.
  [11 <C:/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/PBT12_Tensile.png
 > <C:/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/PBT12_Fail.png>]
@@ -377,11 +383,11 @@ Package pdftex.def Info: figures/PBT14_Tensile.png used on input line 264.
 File: figures/PBT14_Fail.png Graphic file (type png)
 
 <use figures/PBT14_Fail.png>
-Package pdftex.def Info: figures/PBT14_Fail.png used on input line 271.
+Package pdftex.def Info: figures/PBT14_Fail.png used on input line 274.
 (pdftex.def)             Requested size: 405.07161pt x 257.568pt.
  [12 <C:/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/PBT14_Tensile.png
 > <C:/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/PBT14_Fail.png>]
-Overfull \hbox (8.54276pt too wide) in paragraph at lines 281--293
+Overfull \hbox (8.54276pt too wide) in paragraph at lines 284--296
  [] 
  []
 
@@ -390,482 +396,43 @@ File: figures/fracture_stress_test_vs_calc.png Graphic file (type png)
 
 <use figures/fracture_stress_test_vs_calc.png>
 Package pdftex.def Info: figures/fracture_stress_test_vs_calc.png used on input
- line 300.
+ line 303.
 (pdftex.def)             Requested size: 405.07161pt x 264.13411pt.
 
 <figures/modulus_test_vs_calc.png, id=81, 526.96875pt x 356.0803pt>
 File: figures/modulus_test_vs_calc.png Graphic file (type png)
 
 <use figures/modulus_test_vs_calc.png>
-Package pdftex.def Info: figures/modulus_test_vs_calc.png used on input line 30
-7.
+Package pdftex.def Info: figures/modulus_test_vs_calc.png used on input line 31
+0.
 (pdftex.def)             Requested size: 405.07161pt x 273.72627pt.
  [13 <C:/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/fracture_stress_t
 est_vs_calc.png>] [14 <C:/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/
 modulus_test_vs_calc.png>] [15] [16]
-("C:\Users\Ryan Lam\Documents\GitHub\ME533-Report\ME533_Report.aux")
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+("C:\Users\Ryan Lam\Documents\GitHub\ME533-Report\ME533_Report.aux") ) 
 Here is how much of TeX's memory you used:
- 4375 strings out of 493921
- 68367 string characters out of 3146872
- 146240 words of memory out of 3000000
- 7601 multiletter control sequences out of 15000+200000
+ 4376 strings out of 493921
+ 68387 string characters out of 3146872
+ 145240 words of memory out of 3000000
+ 7602 multiletter control sequences out of 15000+200000
  8841 words of font info for 31 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  48i,10n,52p,446b,313s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/P
-rogram Files (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program 
-Files (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (
-x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/La
-TeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/LaTeX/font
-s/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/LaTeX/fonts/type1/
-public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/LaTeX/fonts/type1/public/a
-msfonts/cm/cmr17.pfb><C:/Program Files (x86)/LaTeX/fonts/type1/public/amsfonts/
-cm/cmr8.pfb><C:/Program Files (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb><C:/Program Files (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:
-/Program Files (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on ME533_Report.pdf (17 pages, 41757067 bytes).
+<C:/Progr
+am Files (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program File
+s (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)
+/LaTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/LaTeX/
+fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/LaTeX/fonts/t
+ype1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/LaTeX/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/LaTeX/fonts/type1/public/amsf
+onts/cm/cmr12.pfb><C:/Program Files (x86)/LaTeX/fonts/type1/public/amsfonts/cm/
+cmr17.pfb><C:/Program Files (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb
+><C:/Program Files (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pr
+ogram Files (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Fi
+les (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on ME533_Report.pdf (17 pages, 41757201 bytes).
 PDF statistics:
  134 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-=======
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2017.1.17)  31 MAR 2017 01:47
-entering extended mode
-**ME533_Report.tex
-("C:\Users\Ryan Lam\Documents\GitHub\ME533-Report\ME533_Report.tex"
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
-("C:\Program Files (x86)\LaTeX\tex\latex\base\article.cls"
-Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\LaTeX\tex\latex\base\size11.clo"
-File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
-)
-\c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
-\abovecaptionskip=\skip41
-\belowcaptionskip=\skip42
-\bibindent=\dimen102
-)
-("C:\Program Files (x86)\LaTeX\tex\latex\graphics\graphicx.sty"
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
-
-("C:\Program Files (x86)\LaTeX\tex\latex\graphics\keyval.sty"
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks14
-)
-("C:\Program Files (x86)\LaTeX\tex\latex\graphics\graphics.sty"
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
-
-("C:\Program Files (x86)\LaTeX\tex\latex\graphics\trig.sty"
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
-)
-("C:\Program Files (x86)\LaTeX\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
-)
-Package graphics Info: Driver file: pdftex.def on input line 91.
-
-("C:\Program Files (x86)\LaTeX\tex\latex\pdftex-def\pdftex.def"
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-("C:\Program Files (x86)\LaTeX\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-("C:\Program Files (x86)\LaTeX\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count87
-))
-\Gin@req@height=\dimen103
-\Gin@req@width=\dimen104
-)
-("C:\Program Files (x86)\LaTeX\tex\latex\graphics\lscape.sty"
-Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
-)
-("C:\Program Files (x86)\LaTeX\tex\latex\pdfpages\pdfpages.sty"
-Package: pdfpages 2012/08/31 v0.4t Insert pages of external PDF documents (AM)
-
-("C:\Program Files (x86)\LaTeX\tex\latex\base\ifthen.sty"
-Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
-)
-("C:\Program Files (x86)\LaTeX\tex\latex\tools\calc.sty"
-Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count88
-\calc@Bcount=\count89
-\calc@Adimen=\dimen105
-\calc@Bdimen=\dimen106
-\calc@Askip=\skip43
-\calc@Bskip=\skip44
-LaTeX Info: Redefining \setlength on input line 76.
-LaTeX Info: Redefining \addtolength on input line 77.
-\calc@Ccount=\count90
-\calc@Cskip=\skip45
-)
-("C:\Program Files (x86)\LaTeX\tex\latex\eso-pic\eso-pic.sty"
-Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
-
-("C:\Program Files (x86)\LaTeX\tex\generic\oberdiek\atbegshi.sty"
-Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
-
-("C:\Program Files (x86)\LaTeX\tex\generic\oberdiek\ifpdf.sty"
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-))
-("C:\Program Files (x86)\LaTeX\tex\latex\xcolor\xcolor.sty"
-Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
-
-("C:\Program Files (x86)\LaTeX\tex\latex\00miktex\color.cfg"
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
-)
-Package xcolor Info: Driver file: pdftex.def on input line 225.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
-Package xcolor Info: Model `RGB' extended on input line 1353.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
-))
-("C:\Program Files (x86)\LaTeX\tex\latex\pdfpages\pppdftex.def"
-File: pppdftex.def 2012/08/31 v0.4t Pdfpages driver for pdfTeX (AM)
-)
-\AM@pagebox=\box26
-\AM@toc@title=\toks15
-\c@AM@survey=\count91
-\AM@templatesizebox=\box27
-)
-("C:\Program Files (x86)\LaTeX\tex\latex\koma-script\scrextend.sty"
-Package: scrextend 2012/07/29 v3.11b KOMA-Script KOMA-Script package (extend ot
-her classes with features of KOMA-Script classes)
-
-("C:\Program Files (x86)\LaTeX\tex\latex\koma-script\scrkbase.sty"
-Package: scrkbase 2012/07/29 v3.11b KOMA-Script package (KOMA-Script-dependent 
-basics and keyval usage)
-
-("C:\Program Files (x86)\LaTeX\tex\latex\koma-script\scrbase.sty"
-Package: scrbase 2012/07/29 v3.11b KOMA-Script package (KOMA-Script-independent
- basics and keyval usage)
-
-("C:\Program Files (x86)\LaTeX\tex\latex\koma-script\scrlfile.sty"
-Package: scrlfile 2012/06/15 v3.12 KOMA-Script package (loading files)
-
-Package scrlfile, 2012/06/15 v3.12 KOMA-Script package (loading files)
-                  Copyright (C) Markus Kohm
-
-)))) ("C:\Program Files (x86)\LaTeX\tex\latex\was\gensymb.sty"
-Package: gensymb 2003/07/02 v1.0 (WaS)
-)
-("C:\Program Files (x86)\LaTeX\tex\latex\caption\subcaption.sty"
-Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
-
-("C:\Program Files (x86)\LaTeX\tex\latex\caption\caption.sty"
-Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
-
-("C:\Program Files (x86)\LaTeX\tex\latex\caption\caption3.sty"
-Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen107
-\captionmargin@=\dimen108
-\captionwidth=\dimen109
-\caption@tempdima=\dimen110
-\caption@indent=\dimen111
-\caption@parindent=\dimen112
-\caption@hangindent=\dimen113
-)
-\c@ContinuedFloat=\count92
-)
-\c@subfigure=\count93
-\c@subtable=\count94
-)
-("C:\Program Files (x86)\LaTeX\tex\latex\rotating\rotating.sty"
-Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
-\c@r@tfl@t=\count95
-\rotFPtop=\skip46
-\rotFPbot=\skip47
-\rot@float@box=\box28
-\rot@mess@toks=\toks16
-)
-("C:\Program Files (x86)\LaTeX\tex\latex\appendix\appendix.sty"
-Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count96
-\c@@ppsavesec=\count97
-\c@@ppsaveapp=\count98
-)
-("C:\Program Files (x86)\LaTeX\tex\latex\setspace\setspace.sty"
-Package: setspace 2011/12/19 v6.7a set line spacing
-)
-("C:\Program Files (x86)\LaTeX\tex\latex\float\float.sty"
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count99
-\float@exts=\toks17
-\float@box=\box29
-\@float@everytoks=\toks18
-\@floatcapt=\box30
-)
-("C:\Program Files (x86)\LaTeX\tex\latex\multirow\multirow.sty"
-\bigstrutjot=\dimen114
-)
-("C:\Users\Ryan Lam\Documents\GitHub\ME533-Report\ME533_Report.aux"
-
-LaTeX Warning: Label `tab:CalculatedValues' multiply defined.
-
-)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
- ("C:\Program Files (x86)\LaTeX\tex\context\base\supp-pdf.mkii"
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count100
-\scratchdimen=\dimen115
-\scratchbox=\box31
-\nofMPsegments=\count101
-\nofMParguments=\count102
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count103
-\MPscratchDim=\dimen116
-\MPnumerator=\count104
-\makeMPintoPDFobject=\count105
-\everyMPtoPDFconversion=\toks20
-)
-\AtBeginShipoutBox=\box32
-LaTeX Info: Redefining \celsius on input line 22.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 22.
-
-
-
-Package gensymb Warning: Not defining \perthousand.
-
-LaTeX Info: Redefining \ohm on input line 22.
-Package gensymb Info: Using \Omega for \ohm on input line 22.
-
-Package gensymb Warning: Not defining \micro.
-
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: float package is loaded.
-Package caption Info: rotating package is loaded.
-Package caption Info: End \AtBeginDocument code.
-<./figures/University-of-Waterloo.png, id=1, 562.1pt x 381.425pt>
-File: ./figures/University-of-Waterloo.png Graphic file (type png)
-
-<use ./figures/University-of-Waterloo.png>
-Package pdftex.def Info: ./figures/University-of-Waterloo.png used on input lin
-e 37.
-(pdftex.def)             Requested size: 168.6313pt x 114.42838pt.
- [1
-
-{C:/Users/Ryan Lam/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users
-/Ryan Lam/Documents/GitHub/ME533-Report/figures/University-of-Waterloo.png>]
-("C:\Users\Ryan Lam\Documents\GitHub\ME533-Report\ME533_Report.toc")
-\tf@toc=\write3
- [1]
-("C:\Users\Ryan Lam\Documents\GitHub\ME533-Report\ME533_Report.lof"
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 1.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 1.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 1.
-)
-\tf@lof=\write4
- [2]
-("C:\Users\Ryan Lam\Documents\GitHub\ME533-Report\ME533_Report.lot")
-\tf@lot=\write5
- [3]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 76.
-
-("C:\Program Files (x86)\LaTeX\tex\latex\base\omscmr.fd"
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 76.
-
-<figures/PBT11_Long.png, id=21, 1951.29pt x 1463.4675pt>
-File: figures/PBT11_Long.png Graphic file (type png)
-
-<use figures/PBT11_Long.png>
-Package pdftex.def Info: figures/PBT11_Long.png used on input line 90.
-(pdftex.def)             Requested size: 298.47348pt x 223.8428pt.
-
-<figures/PBT11_Trans.png, id=22, 1951.29pt x 1463.4675pt>
-File: figures/PBT11_Trans.png Graphic file (type png)
-
-<use figures/PBT11_Trans.png>
-Package pdftex.def Info: figures/PBT11_Trans.png used on input line 96.
-(pdftex.def)             Requested size: 298.47348pt x 223.8428pt.
- [4]
-<figures/PBT-11-TRANSVERSE-WITH-LABEL.png, id=27, 1951.29pt x 1463.4675pt>
-File: figures/PBT-11-TRANSVERSE-WITH-LABEL.png Graphic file (type png)
-
-<use figures/PBT-11-TRANSVERSE-WITH-LABEL.png>
-Package pdftex.def Info: figures/PBT-11-TRANSVERSE-WITH-LABEL.png used on input
- line 103.
-(pdftex.def)             Requested size: 298.47348pt x 223.8428pt.
-
-<figures/PBT-12-TRANSVERSE-COMBINED.png, id=29, 1951.29pt x 1463.4675pt>
-File: figures/PBT-12-TRANSVERSE-COMBINED.png Graphic file (type png)
-
-<use figures/PBT-12-TRANSVERSE-COMBINED.png>
-Package pdftex.def Info: figures/PBT-12-TRANSVERSE-COMBINED.png used on input l
-ine 109.
-(pdftex.def)             Requested size: 298.47348pt x 223.8428pt.
- [5 <C:/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/PBT11_Long.png> <C
-:/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/PBT11_Trans.png>] [6 <C:
-/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/PBT-11-TRANSVERSE-WITH-LA
-BEL.png> <C:/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/PBT-12-TRANSV
-ERSE-COMBINED.png>]
-Overfull \hbox (5.35696pt too wide) in paragraph at lines 139--148
- [] 
- []
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 195--197
-
- []
-
-<figures/PBT9_Tensile.png, id=47, 530.73282pt x 351.56343pt>
-File: figures/PBT9_Tensile.png Graphic file (type png)
-
-<use figures/PBT9_Tensile.png>
-Package pdftex.def Info: figures/PBT9_Tensile.png used on input line 220.
-(pdftex.def)             Requested size: 405.07161pt x 268.32823pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 216--223
-
- []
-
-[8] <figures/PBT9_Fail.png, id=52, 534.49687pt x 347.04657pt>
-File: figures/PBT9_Fail.png Graphic file (type png)
-
-<use figures/PBT9_Fail.png>
-Package pdftex.def Info: figures/PBT9_Fail.png used on input line 227.
-(pdftex.def)             Requested size: 405.07161pt x 263.02205pt.
-
-<figures/PBT11_Tensile.png, id=53, 532.99126pt x 344.78813pt>
-File: figures/PBT11_Tensile.png Graphic file (type png)
-
-<use figures/PBT11_Tensile.png>
-Package pdftex.def Info: figures/PBT11_Tensile.png used on input line 234.
-(pdftex.def)             Requested size: 405.07161pt x 262.04695pt.
- [9 <C:/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/PBT9_Tensile.png> 
-<C:/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/PBT9_Fail.png>]
-<figures/PBT11_Fail.png, id=59, 534.49687pt x 354.57469pt>
-File: figures/PBT11_Fail.png Graphic file (type png)
-
-<use figures/PBT11_Fail.png>
-Package pdftex.def Info: figures/PBT11_Fail.png used on input line 241.
-(pdftex.def)             Requested size: 405.07161pt x 268.72752pt.
-
-<figures/PBT12_Tensile.png, id=60, 536.0025pt x 341.02406pt>
-File: figures/PBT12_Tensile.png Graphic file (type png)
-
-<use figures/PBT12_Tensile.png>
-Package pdftex.def Info: figures/PBT12_Tensile.png used on input line 248.
-(pdftex.def)             Requested size: 405.07161pt x 257.71877pt.
- [10 <C:/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/PBT11_Tensile.png
-> <C:/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/PBT11_Fail.png>]
-<figures/PBT12_Fail.png, id=66, 532.99126pt x 343.2825pt>
-File: figures/PBT12_Fail.png Graphic file (type png)
-
-<use figures/PBT12_Fail.png>
-Package pdftex.def Info: figures/PBT12_Fail.png used on input line 255.
-(pdftex.def)             Requested size: 405.07161pt x 260.90263pt.
-
-<figures/PBT14_Tensile.png, id=67, 527.72156pt x 342.5297pt>
-File: figures/PBT14_Tensile.png Graphic file (type png)
-
-<use figures/PBT14_Tensile.png>
-Package pdftex.def Info: figures/PBT14_Tensile.png used on input line 264.
-(pdftex.def)             Requested size: 405.07161pt x 262.91765pt.
- [11 <C:/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/PBT12_Tensile.png
-> <C:/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/PBT12_Fail.png>]
-<figures/PBT14_Fail.png, id=73, 537.50812pt x 341.77687pt>
-File: figures/PBT14_Fail.png Graphic file (type png)
-
-<use figures/PBT14_Fail.png>
-Package pdftex.def Info: figures/PBT14_Fail.png used on input line 271.
-(pdftex.def)             Requested size: 405.07161pt x 257.568pt.
- [12 <C:/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/PBT14_Tensile.png
-> <C:/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/PBT14_Fail.png>]
-Overfull \hbox (8.54276pt too wide) in paragraph at lines 281--293
- [] 
- []
-
-<figures/fracture_stress_test_vs_calc.png, id=80, 532.23843pt x 347.04657pt>
-File: figures/fracture_stress_test_vs_calc.png Graphic file (type png)
-
-<use figures/fracture_stress_test_vs_calc.png>
-Package pdftex.def Info: figures/fracture_stress_test_vs_calc.png used on input
- line 300.
-(pdftex.def)             Requested size: 405.07161pt x 264.13411pt.
-
-<figures/modulus_test_vs_calc.png, id=81, 526.96875pt x 356.0803pt>
-File: figures/modulus_test_vs_calc.png Graphic file (type png)
-
-<use figures/modulus_test_vs_calc.png>
-Package pdftex.def Info: figures/modulus_test_vs_calc.png used on input line 30
-7.
-(pdftex.def)             Requested size: 405.07161pt x 273.72627pt.
- [13 <C:/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/fracture_stress_t
-est_vs_calc.png>] [14 <C:/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/
-modulus_test_vs_calc.png>] [15] [16]
-("C:\Users\Ryan Lam\Documents\GitHub\ME533-Report\ME533_Report.aux")
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
-Here is how much of TeX's memory you used:
- 4375 strings out of 493921
- 68367 string characters out of 3146872
- 146240 words of memory out of 3000000
- 7601 multiletter control sequences out of 15000+200000
- 8841 words of font info for 31 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 48i,10n,52p,446b,313s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/P
-rogram Files (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program 
-Files (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (
-x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/La
-TeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/LaTeX/font
-s/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/LaTeX/fonts/type1/
-public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/LaTeX/fonts/type1/public/a
-msfonts/cm/cmr17.pfb><C:/Program Files (x86)/LaTeX/fonts/type1/public/amsfonts/
-cm/cmr8.pfb><C:/Program Files (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb><C:/Program Files (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:
-/Program Files (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on ME533_Report.pdf (17 pages, 41757067 bytes).
-PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
-
->>>>>>> origin/Ryan
