@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.7.27)  31 MAR 2017 17:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.7.27)  31 MAR 2017 17:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -188,7 +188,11 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 (c:/texlive/2016/texmf-dist/tex/latex/multirow/multirow.sty
 \bigstrutjot=\dimen116
 )
-(./ME533_Report.aux)
+(./ME533_Report.aux
+
+LaTeX Warning: Label `tab:MaterialValues' multiply defined.
+
+)
 \openout1 = `ME533_Report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
@@ -203,8 +207,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
-
-(c:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (c:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count100
 \scratchdimen=\dimen117
@@ -358,143 +361,161 @@ ine 157.
 (pdftex.def)             Requested size: 298.47348pt x 223.8428pt.
  [6 <./figures/PBT11_Long.png> <./figures/PBT11_Trans.png>] [7 <./figures/PBT12
 _Long.png> <./figures/PBT-12-TRANSVERSE-COMBINED.png>]
-<figures/PBT9_Tensile.png, id=46, 530.73282pt x 351.56343pt>
-File: figures/PBT9_Tensile.png Graphic file (type png)
-
-<use figures/PBT9_Tensile.png>
-Package pdftex.def Info: figures/PBT9_Tensile.png used on input line 188.
-(pdftex.def)             Requested size: 405.07161pt x 268.32823pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 184--191
-
- []
-
-<figures/PBT9_Fail.png, id=47, 534.49687pt x 347.04657pt>
-File: figures/PBT9_Fail.png Graphic file (type png)
-
-<use figures/PBT9_Fail.png>
-Package pdftex.def Info: figures/PBT9_Fail.png used on input line 195.
-(pdftex.def)             Requested size: 405.07161pt x 263.02205pt.
- [8 <./figures/PBT9_Tensile.png>]
-<figures/PBT11_Tensile.png, id=52, 532.99126pt x 344.78813pt>
-File: figures/PBT11_Tensile.png Graphic file (type png)
-
-<use figures/PBT11_Tensile.png>
-Package pdftex.def Info: figures/PBT11_Tensile.png used on input line 202.
-(pdftex.def)             Requested size: 405.07161pt x 262.04695pt.
-
-<figures/PBT11_Fail.png, id=53, 534.49687pt x 354.57469pt>
-File: figures/PBT11_Fail.png Graphic file (type png)
-
-<use figures/PBT11_Fail.png>
-Package pdftex.def Info: figures/PBT11_Fail.png used on input line 209.
-(pdftex.def)             Requested size: 405.07161pt x 268.72752pt.
- [9 <./figures/PBT9_Fail.png> <./figures/PBT11_Tensile.png>] <figures/PBT12_Ten
-sile.png, id=59, 536.0025pt x 341.02406pt>
-File: figures/PBT12_Tensile.png Graphic file (type png)
-
-<use figures/PBT12_Tensile.png>
-Package pdftex.def Info: figures/PBT12_Tensile.png used on input line 216.
-(pdftex.def)             Requested size: 405.07161pt x 257.71877pt.
-
-<figures/PBT12_Fail.png, id=60, 532.99126pt x 343.2825pt>
-File: figures/PBT12_Fail.png Graphic file (type png)
-
-<use figures/PBT12_Fail.png>
-Package pdftex.def Info: figures/PBT12_Fail.png used on input line 223.
-(pdftex.def)             Requested size: 405.07161pt x 260.90263pt.
- [10 <./figures/PBT11_Fail.png> <./figures/PBT12_Tensile.png>] <figures/PBT14_T
-ensile.png, id=66, 527.72156pt x 342.5297pt>
-File: figures/PBT14_Tensile.png Graphic file (type png)
-
-<use figures/PBT14_Tensile.png>
-Package pdftex.def Info: figures/PBT14_Tensile.png used on input line 232.
-(pdftex.def)             Requested size: 405.07161pt x 262.91765pt.
-
-<figures/PBT14_Fail.png, id=67, 537.50812pt x 341.77687pt>
-File: figures/PBT14_Fail.png Graphic file (type png)
-
-<use figures/PBT14_Fail.png>
-Package pdftex.def Info: figures/PBT14_Fail.png used on input line 239.
-(pdftex.def)             Requested size: 405.07161pt x 257.568pt.
- [11 <./figures/PBT12_Fail.png> <./figures/PBT14_Tensile.png>]
-Underfull \hbox (badness 2285) in paragraph at lines 253--253
+Underfull \hbox (badness 2285) in paragraph at lines 193--193
 []\OT1/cmr/m/n/10.95 Young's Mod-u-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
+Underfull \hbox (badness 10000) in paragraph at lines 193--193
 []$\OML/cmm/m/it/10.95 ^^[[]$\OT1/cmr/m/n/10.95 , Frac-ture
  []
 
 
-Underfull \hbox (badness 4242) in paragraph at lines 253--253
+Underfull \hbox (badness 4242) in paragraph at lines 193--194
+[]\OT1/cmr/m/n/10.95 Shear Mod-u-lus
+ []
+
+<figures/PBT9_Tensile.png, id=46, 530.73282pt x 351.56343pt>
+File: figures/PBT9_Tensile.png Graphic file (type png)
+
+<use figures/PBT9_Tensile.png>
+Package pdftex.def Info: figures/PBT9_Tensile.png used on input line 210.
+(pdftex.def)             Requested size: 405.07161pt x 268.32823pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--213
+
+ []
+
+[8] <figures/PBT9_Fail.png, id=50, 534.49687pt x 347.04657pt>
+File: figures/PBT9_Fail.png Graphic file (type png)
+
+<use figures/PBT9_Fail.png>
+Package pdftex.def Info: figures/PBT9_Fail.png used on input line 217.
+(pdftex.def)             Requested size: 405.07161pt x 263.02205pt.
+
+<figures/PBT11_Tensile.png, id=51, 532.99126pt x 344.78813pt>
+File: figures/PBT11_Tensile.png Graphic file (type png)
+
+<use figures/PBT11_Tensile.png>
+Package pdftex.def Info: figures/PBT11_Tensile.png used on input line 224.
+(pdftex.def)             Requested size: 405.07161pt x 262.04695pt.
+ [9 <./figures/PBT9_Tensile.png> <./figures/PBT9_Fail.png>] <figures/PBT11_Fail
+.png, id=57, 534.49687pt x 354.57469pt>
+File: figures/PBT11_Fail.png Graphic file (type png)
+
+<use figures/PBT11_Fail.png>
+Package pdftex.def Info: figures/PBT11_Fail.png used on input line 231.
+(pdftex.def)             Requested size: 405.07161pt x 268.72752pt.
+
+<figures/PBT12_Tensile.png, id=58, 536.0025pt x 341.02406pt>
+File: figures/PBT12_Tensile.png Graphic file (type png)
+
+<use figures/PBT12_Tensile.png>
+Package pdftex.def Info: figures/PBT12_Tensile.png used on input line 238.
+(pdftex.def)             Requested size: 405.07161pt x 257.71877pt.
+ [10 <./figures/PBT11_Tensile.png> <./figures/PBT11_Fail.png>] <figures/PBT12_F
+ail.png, id=64, 532.99126pt x 343.2825pt>
+File: figures/PBT12_Fail.png Graphic file (type png)
+
+<use figures/PBT12_Fail.png>
+Package pdftex.def Info: figures/PBT12_Fail.png used on input line 245.
+(pdftex.def)             Requested size: 405.07161pt x 260.90263pt.
+
+<figures/PBT14_Tensile.png, id=65, 527.72156pt x 342.5297pt>
+File: figures/PBT14_Tensile.png Graphic file (type png)
+
+<use figures/PBT14_Tensile.png>
+Package pdftex.def Info: figures/PBT14_Tensile.png used on input line 254.
+(pdftex.def)             Requested size: 405.07161pt x 262.91765pt.
+ [11 <./figures/PBT12_Tensile.png> <./figures/PBT12_Fail.png>] <figures/PBT14_F
+ail.png, id=71, 537.50812pt x 341.77687pt>
+File: figures/PBT14_Fail.png Graphic file (type png)
+
+<use figures/PBT14_Fail.png>
+Package pdftex.def Info: figures/PBT14_Fail.png used on input line 261.
+(pdftex.def)             Requested size: 405.07161pt x 257.568pt.
+ [12 <./figures/PBT14_Tensile.png> <./figures/PBT14_Fail.png>]
+Underfull \hbox (badness 2285) in paragraph at lines 275--275
+[]\OT1/cmr/m/n/10.95 Young's Mod-u-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--275
+[]$\OML/cmm/m/it/10.95 ^^[[]$\OT1/cmr/m/n/10.95 , Frac-ture
+ []
+
+
+Underfull \hbox (badness 4242) in paragraph at lines 275--275
 []\OT1/cmr/m/n/10.95 Shear Mod-u-lus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--254
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
 []\OT1/cmr/m/n/10.95 Yield Stress
  []
 
 
-Overfull \hbox (5.49324pt too wide) in paragraph at lines 251--260
+Overfull \hbox (5.49324pt too wide) in paragraph at lines 273--282
  [] 
  []
 
-[12 <./figures/PBT14_Fail.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 270--272
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 312--315
+Underfull \hbox (badness 10000) in paragraph at lines 292--294
 
  []
 
 [13]
-Overfull \hbox (8.54276pt too wide) in paragraph at lines 336--348
+Underfull \hbox (badness 10000) in paragraph at lines 334--337
+
+ []
+
+
+Overfull \hbox (8.54276pt too wide) in paragraph at lines 358--370
  [] 
  []
 
-<figures/fracture_stress_test_vs_calc.png, id=83, 562.72734pt x 326.72063pt>
+[14]
+<figures/fracture_stress_test_vs_calc.png, id=86, 562.72734pt x 326.72063pt>
 File: figures/fracture_stress_test_vs_calc.png Graphic file (type png)
 
 <use figures/fracture_stress_test_vs_calc.png>
 Package pdftex.def Info: figures/fracture_stress_test_vs_calc.png used on input
- line 355.
+ line 377.
 (pdftex.def)             Requested size: 405.07161pt x 235.18382pt.
- [14]
+
 <figures/modulus_test_vs_calc.png, id=87, 564.98578pt x 339.14203pt>
 File: figures/modulus_test_vs_calc.png Graphic file (type png)
 
 <use figures/modulus_test_vs_calc.png>
-Package pdftex.def Info: figures/modulus_test_vs_calc.png used on input line 36
-2.
+Package pdftex.def Info: figures/modulus_test_vs_calc.png used on input line 38
+4.
 (pdftex.def)             Requested size: 405.07161pt x 243.15744pt.
- [15 <./figures/fracture_stress_test_vs_calc.png> <./figures/modulus_test_vs_ca
-lc.png>] [16] [17] (./ME533_Report.aux) ) 
+ [15 <./figures/fracture_stress_test_vs_calc.png>] [16 <./figures/modulus_test_
+vs_calc.png>] [17] (./ME533_Report.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 5071 strings out of 493013
- 80589 string characters out of 6136993
- 171834 words of memory out of 5000000
- 8512 multiletter control sequences out of 15000+600000
+ 5072 strings out of 493013
+ 80599 string characters out of 6136993
+ 173877 words of memory out of 5000000
+ 8513 multiletter control sequences out of 15000+600000
  9148 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,10n,52p,924b,313s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2016/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmbx12.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmex10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10
-.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/201
-6/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2016/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2016/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy8.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10
-.pfb>
-Output written on ME533_Report.pdf (18 pages, 42085465 bytes).
+<c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2016
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2016/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2016/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2016/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr12.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17
+.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/201
+6/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2016/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on ME533_Report.pdf (18 pages, 42086578 bytes).
 PDF statistics:
  138 PDF objects out of 1000 (max. 8388607)
  78 compressed objects within 1 object stream
