@@ -66,8 +66,59 @@
 \section{Introduction}
 This lab is meant to blah blah
 
-\section{Experimental Procedure}
-This is how we do.
+\section{Experimental Procedure \cite{manual}}
+For this lab, samples of PBT11, PBT12, and PBT14 were supplied. For instructions on how to prepare these samples, refer to THE LEARN SHIT.
+
+There were two major steps in performing this experiment: polishing and microscopy.
+
+\subsection{Polishing}
+\begin{enumerate}
+\item Beginning with 240 grit wet sandpaper (hand grinder), grind the specimen in one direction until all scratch marks line up in the grinding direction. Move up to the next grit of sandpaper
+
+\item Rotate the specimen 90\(\degree\) to the scratch marks and grind until the scratch marks are removed.
+
+\item Repeat steps 1 and 2 until all grits of sandpaper are used (240, 320, 400 and 600).
+
+\item Use the knuth rotor and gently place the specimen on the 1000 grit sandpaper wheel at 90\(\degree\) to the previous scratch marks.
+
+\item Proceed to the polishing wheel and install the 1\(\mu m\) polishing wheel. Turn it on and pour 1\(\mu m\) alumina powder mixture on the wheel. Again, gently place the specimen on the wheel at 90\(\degree\) to the previous scratch marks
+
+\item Repeat step 5 using finer and finer alumina powder (0.3\(\mu m\), 0.1\(\mu m\), 0.05\(\mu m\)). Clean the wheel of any residual powder after each polishing using water and a hand brush.
+
+\item Clean the sample with water and place it in the ultrasonic cleaner.
+
+\item Clean the sample with alcohol using a cotton ball and then air dry.
+\end{enumerate}
+
+\subsection{Microscopy}
+\begin{enumerate}
+\item Using Image Pro Plus, focus the sample under the microscope and adjust the lighting and zoom, as needed.
+
+\item Click \textit{Capture} in the top left menu to capture the image. The image will be saved at the bottom of the page. Click on the image to open it.
+
+\item To add scale lines, click on \textit{Measure} and then \textit{show scale line}. Click on \textit{select} and drag the scale marker to the desired location.
+
+\item Double click on the scale marker to adjust the scaling as needed.
+
+\item Click on \textit{calibration table} and select the zoom used when taking the image and apply it to the image.
+
+\subsubsection{Measuring Phase Fraction}
+
+\item For the transverse view of the sample, measure the field of view area. Click \textit{insert rectangle} and drag it over the whole frame and double click it.
+
+\item Measure the area of the fibers. click \textit{2 point circle} and create circles around all the visible fiber cross-sections.
+
+\item Measured values will show in \textit{measurement list}.
+
+\item Find \(V_f = A_{fibers}/A_{image}\).
+
+\subsubsection{Measuring Distance}
+
+\item For the longitudinal view of the sample, measure fully revealed fiber lengths. Click on \textit{line} and create a single line per fiber, dragging it from start point to end point.
+
+\item Measured values will show in \textit{measurement list}
+
+\end{enumerate}
 
 \section{Results}
 From conducting the experiment and examining the microstructures of each of the composities (PBT12, PBT11, and PBT14), the following microstructural properties can be found. Since PBT14 had no fibers, these values are not applicable for it.
@@ -81,8 +132,7 @@ From conducting the experiment and examining the microstructures of each of the 
 \item Volume fraction of voids (qualitative)
 \end{itemize}
 
-These values were determined by counting and measuring fiber lengths and diameters seen under the microscope and averaging the greatest 20 results. Figures \ref{pbt11longcount} and \ref{pbt11transcount} show how this was done. In both cases, the fibers were counted and measured in various places around the sample area. For the longitudinal fibers, only fully revealed fibers were counted (rectangular ends).
-
+These values were determined by counting and measuring fiber lengths and diameters seen under the microscope and averaging the greatest 20 results. Figures \ref{pbt11longcount}, \ref{pbt11transcount}, \ref{pbt12longcount}, and \ref{pbt12transcount} show how this was done. In both samples, the fibers were counted and measured in various places around the sample area. For the longitudinal fibers, only fully revealed fibers were counted (rectangular ends). The volume fractions for the samples of PBT11 and PBT12 were calculated by determining the ratio of the cross-sectional area of the transverse fibers in the field of view of the microscope to the field of view of the microscope.
 
 \begin{figure}[H]
 \centering
@@ -96,20 +146,17 @@ These values were determined by counting and measuring fiber lengths and diamete
 \caption{PBT11 Transverse Fiber Counting}
 \label{pbt11transcount}
 \end{figure}
-
-The volume fractions for the samples of PBT11 and PBT12 were calculated by determining the ratio of the cross-sectional area of the transverse fibers in the field of view of the microscope to the field of view of the microscope. Figures \ref{pbt11Vf} and \ref{pbt12Vf} show the process determining those ratios for PBT11 and PBT12.
-
 \begin{figure}[H]
 \centering
-\includegraphics[width=.7\linewidth]{figures/PBT-11-TRANSVERSE-WITH-LABEL.png}
-\caption{PBT11 Volume Fraction Count}
-\label{pbt11Vf}
+\includegraphics[width=.7\linewidth]{figures/PBT12_Long.png}
+\caption{PBT12 Longitudinal Fiber Counting}
+\label{pbt12longcount}
 \end{figure}
 \begin{figure}[H]
 \centering
 \includegraphics[width=.7\linewidth]{figures/PBT-12-TRANSVERSE-COMBINED.png}
-\caption{PBT12 Volume Fraction Count}
-\label{pbt12Vf}
+\caption{PBT12 Transverse Fiber Counting}
+\label{pbt12transcount}
 \end{figure}
 
 The following table lists the respective values for PBT9, PBT11, PBT12, and PBT14. For PBT9 it was assumed that the fibers used in the composite would be the same as PBT11 and PBT12. The fiber lengths and diameters were simply calculated as the respective average of the same values for PBT11 and PBT12.
@@ -133,25 +180,6 @@ Sample & \multicolumn{1}{c|}{PBT9} & \multicolumn{1}{c|}{PBT11} & \multicolumn{1
 \end{center}
 \singlespacing
 \vspace{1em}
-
-Table \ref{tab:MaterialValues} shows the mechanical material properties of the fiber (E-Glass) and matrix (PBT) materials. 
-
-\onehalfspacing
-\begin{center}
-\captionof{table}{Material Data for E-Glass Fiber and PBT Polymer} \label{tab:MaterialValues}
-\begin{tabular}{p{2cm} || p{2.75cm} | p{2.75cm} | p{2.75cm} }
-\hline
-\multicolumn{1}{c||}{Material} & Young's Modulus (MPa) & \(\sigma^*\), Fracture Strength (MPa) & Shear Modulus (MPa) \\
-\hline
-\hline
-\(E-Glass\) & 70000 &  1750 & 881.6 \\
-\(PBT\) & 2558 & 32.467 & N/A\\
-\hline
-\end{tabular}
-\end{center}
-\singlespacing
-\vspace{1em}
-
 
 The following figures show tensile tests performed for samples of PBT9, PBT11, PBT12, and PBT14 in the elastic regions and up to fracture.
 \\
@@ -213,7 +241,25 @@ The following figures show tensile tests performed for samples of PBT9, PBT11, P
 \label{pbt14fail}
 \end{figure}
 
-\newpage
+Observing these graphs, it is clear that the modulus is fairly consistent for each of the PBT samples, but when it comes to the fracture point, the test samples performed slightly differently. For PBT9, the fracture strength ranged from 97MPa up to 112MPa, with a strain at break of 4\% to 6\%. For PBT11, the data is more precise, with the fracture strength ranging from 110MPa to 113MPa, with a strain at break of 5\% to 6\%. For PBT12, the data is also fairly precise, with the fracture strength ranging from 60MPa to 67MPa, with a strain at break of 4.5\% to 5\%. Finally, PBT14 had precise fracture strengths (31MPa to 34MPa), but very diverse strains at break (40\% to 130\%).
+
+Table \ref{tab:MaterialValues} shows the mechanical material properties of the fiber (E-Glass) and matrix (PBT) materials. These will be used later on when calculating the Young's Modulus and Fracture Stress of the samples. The Young's Modulus for PBT is determined from Figure \ref{pbt14tensile} and the fracture strength and yield stress for PBT is obtained from observing the yield points of Figure \ref{pbt14fail}.
+
+\onehalfspacing
+\begin{center}
+\captionof{table}{Material Data for E-Glass Fiber and PBT Polymer} \label{tab:MaterialValues}
+\begin{tabular}{p{2cm} || p{2.75cm} | p{2.75cm} | p{2.75cm} | p{2.75cm} }
+\hline
+\multicolumn{1}{c||}{Material} & Young's Modulus (MPa) & \(\sigma^*\), Fracture Strength (MPa) & Shear Modulus (MPa) & Yield Stress (MPa)\\
+\hline
+\hline
+\(E-Glass\) & 70000 &  1750 & 881.6 & N/A \\
+\(PBT\) & 2558 & 32.467 & N/A & 60.91\\
+\hline
+\end{tabular}
+\end{center}
+\singlespacing
+
 \section{Discussion}
 
 
@@ -329,10 +375,11 @@ We did some stuff using some PBT samples for the sake of testing some stuff. Fro
 
 \newpage
 \begin{thebibliography}{9}
-\bibitem{proposal} 
-Ryan Lam, Jan Quijalvo, Robert Weeks and Alan Wu. 
-Design Project Proposal. 
-Unpublished manuscript, University of Waterloo, 2016.
+\bibitem{manual}
+R.A. Varin, \textit{"ME533 -- Composite Materials Laboratory Research Project}, 2017
+
+\bibitem{hull} 
+D. Hull, \textit{"An introduction to composite materials"}, Cambridge University Press, 1981
 
 \bibitem{asphaltAugerPic}
 Engineering Control Guidelines for Hot Mix Asphalt Pavers. (2014). Retrieved July 26, 2016, from https://www.cdc.gov/niosh/docs/97-105/
