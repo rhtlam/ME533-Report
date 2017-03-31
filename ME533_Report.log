@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2017.1.17)  31 MAR 2017 01:12
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2017.1.17)  31 MAR 2017 01:47
 entering extended mode
 **ME533_Report.tex
 ("C:\Users\Ryan Lam\Documents\GitHub\ME533-Report\ME533_Report.tex"
@@ -277,14 +277,14 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 File: figures/PBT11_Long.png Graphic file (type png)
 
 <use figures/PBT11_Long.png>
-Package pdftex.def Info: figures/PBT11_Long.png used on input line 89.
+Package pdftex.def Info: figures/PBT11_Long.png used on input line 90.
 (pdftex.def)             Requested size: 298.47348pt x 223.8428pt.
 
 <figures/PBT11_Trans.png, id=22, 1951.29pt x 1463.4675pt>
 File: figures/PBT11_Trans.png Graphic file (type png)
 
 <use figures/PBT11_Trans.png>
-Package pdftex.def Info: figures/PBT11_Trans.png used on input line 95.
+Package pdftex.def Info: figures/PBT11_Trans.png used on input line 96.
 (pdftex.def)             Requested size: 298.47348pt x 223.8428pt.
  [4]
 <figures/PBT-11-TRANSVERSE-WITH-LABEL.png, id=27, 1951.29pt x 1463.4675pt>
@@ -292,7 +292,7 @@ File: figures/PBT-11-TRANSVERSE-WITH-LABEL.png Graphic file (type png)
 
 <use figures/PBT-11-TRANSVERSE-WITH-LABEL.png>
 Package pdftex.def Info: figures/PBT-11-TRANSVERSE-WITH-LABEL.png used on input
- line 104.
+ line 103.
 (pdftex.def)             Requested size: 298.47348pt x 223.8428pt.
 
 <figures/PBT-12-TRANSVERSE-COMBINED.png, id=29, 1951.29pt x 1463.4675pt>
@@ -300,19 +300,19 @@ File: figures/PBT-12-TRANSVERSE-COMBINED.png Graphic file (type png)
 
 <use figures/PBT-12-TRANSVERSE-COMBINED.png>
 Package pdftex.def Info: figures/PBT-12-TRANSVERSE-COMBINED.png used on input l
-ine 110.
+ine 109.
 (pdftex.def)             Requested size: 298.47348pt x 223.8428pt.
  [5 <C:/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/PBT11_Long.png> <C
 :/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/PBT11_Trans.png>] [6 <C:
 /Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/PBT-11-TRANSVERSE-WITH-LA
 BEL.png> <C:/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/PBT-12-TRANSV
 ERSE-COMBINED.png>]
-Overfull \hbox (5.35696pt too wide) in paragraph at lines 140--149
+Overfull \hbox (5.35696pt too wide) in paragraph at lines 139--148
  [] 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 196--198
+Underfull \hbox (badness 10000) in paragraph at lines 195--197
 
  []
 
@@ -320,10 +320,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 196--198
 File: figures/PBT9_Tensile.png Graphic file (type png)
 
 <use figures/PBT9_Tensile.png>
-Package pdftex.def Info: figures/PBT9_Tensile.png used on input line 221.
+Package pdftex.def Info: figures/PBT9_Tensile.png used on input line 220.
 (pdftex.def)             Requested size: 405.07161pt x 268.32823pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--224
+Underfull \hbox (badness 10000) in paragraph at lines 216--223
 
  []
 
@@ -331,14 +331,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 217--224
 File: figures/PBT9_Fail.png Graphic file (type png)
 
 <use figures/PBT9_Fail.png>
-Package pdftex.def Info: figures/PBT9_Fail.png used on input line 228.
+Package pdftex.def Info: figures/PBT9_Fail.png used on input line 227.
 (pdftex.def)             Requested size: 405.07161pt x 263.02205pt.
 
 <figures/PBT11_Tensile.png, id=53, 532.99126pt x 344.78813pt>
 File: figures/PBT11_Tensile.png Graphic file (type png)
 
 <use figures/PBT11_Tensile.png>
-Package pdftex.def Info: figures/PBT11_Tensile.png used on input line 235.
+Package pdftex.def Info: figures/PBT11_Tensile.png used on input line 234.
 (pdftex.def)             Requested size: 405.07161pt x 262.04695pt.
  [9 <C:/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/PBT9_Tensile.png> 
 <C:/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/PBT9_Fail.png>]
@@ -346,14 +346,14 @@ Package pdftex.def Info: figures/PBT11_Tensile.png used on input line 235.
 File: figures/PBT11_Fail.png Graphic file (type png)
 
 <use figures/PBT11_Fail.png>
-Package pdftex.def Info: figures/PBT11_Fail.png used on input line 242.
+Package pdftex.def Info: figures/PBT11_Fail.png used on input line 241.
 (pdftex.def)             Requested size: 405.07161pt x 268.72752pt.
 
 <figures/PBT12_Tensile.png, id=60, 536.0025pt x 341.02406pt>
 File: figures/PBT12_Tensile.png Graphic file (type png)
 
 <use figures/PBT12_Tensile.png>
-Package pdftex.def Info: figures/PBT12_Tensile.png used on input line 249.
+Package pdftex.def Info: figures/PBT12_Tensile.png used on input line 248.
 (pdftex.def)             Requested size: 405.07161pt x 257.71877pt.
  [10 <C:/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/PBT11_Tensile.png
 > <C:/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/PBT11_Fail.png>]
@@ -361,14 +361,14 @@ Package pdftex.def Info: figures/PBT12_Tensile.png used on input line 249.
 File: figures/PBT12_Fail.png Graphic file (type png)
 
 <use figures/PBT12_Fail.png>
-Package pdftex.def Info: figures/PBT12_Fail.png used on input line 256.
+Package pdftex.def Info: figures/PBT12_Fail.png used on input line 255.
 (pdftex.def)             Requested size: 405.07161pt x 260.90263pt.
 
 <figures/PBT14_Tensile.png, id=67, 527.72156pt x 342.5297pt>
 File: figures/PBT14_Tensile.png Graphic file (type png)
 
 <use figures/PBT14_Tensile.png>
-Package pdftex.def Info: figures/PBT14_Tensile.png used on input line 265.
+Package pdftex.def Info: figures/PBT14_Tensile.png used on input line 264.
 (pdftex.def)             Requested size: 405.07161pt x 262.91765pt.
  [11 <C:/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/PBT12_Tensile.png
 > <C:/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/PBT12_Fail.png>]
@@ -376,11 +376,11 @@ Package pdftex.def Info: figures/PBT14_Tensile.png used on input line 265.
 File: figures/PBT14_Fail.png Graphic file (type png)
 
 <use figures/PBT14_Fail.png>
-Package pdftex.def Info: figures/PBT14_Fail.png used on input line 272.
+Package pdftex.def Info: figures/PBT14_Fail.png used on input line 271.
 (pdftex.def)             Requested size: 405.07161pt x 257.568pt.
  [12 <C:/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/PBT14_Tensile.png
 > <C:/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/PBT14_Fail.png>]
-Overfull \hbox (8.54276pt too wide) in paragraph at lines 282--294
+Overfull \hbox (8.54276pt too wide) in paragraph at lines 281--293
  [] 
  []
 
@@ -389,7 +389,7 @@ File: figures/fracture_stress_test_vs_calc.png Graphic file (type png)
 
 <use figures/fracture_stress_test_vs_calc.png>
 Package pdftex.def Info: figures/fracture_stress_test_vs_calc.png used on input
- line 301.
+ line 300.
 (pdftex.def)             Requested size: 405.07161pt x 264.13411pt.
 
 <figures/modulus_test_vs_calc.png, id=81, 526.96875pt x 356.0803pt>
@@ -397,7 +397,7 @@ File: figures/modulus_test_vs_calc.png Graphic file (type png)
 
 <use figures/modulus_test_vs_calc.png>
 Package pdftex.def Info: figures/modulus_test_vs_calc.png used on input line 30
-8.
+7.
 (pdftex.def)             Requested size: 405.07161pt x 273.72627pt.
  [13 <C:/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/fracture_stress_t
 est_vs_calc.png>] [14 <C:/Users/Ryan Lam/Documents/GitHub/ME533-Report/figures/
@@ -426,7 +426,7 @@ msfonts/cm/cmr17.pfb><C:/Program Files (x86)/LaTeX/fonts/type1/public/amsfonts/
 cm/cmr8.pfb><C:/Program Files (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmsy10
 .pfb><C:/Program Files (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:
 /Program Files (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on ME533_Report.pdf (17 pages, 41757124 bytes).
+Output written on ME533_Report.pdf (17 pages, 41757067 bytes).
 PDF statistics:
  134 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
