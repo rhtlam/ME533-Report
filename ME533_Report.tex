@@ -260,20 +260,15 @@ Table \ref{tab:MaterialValues} shows the mechanical material properties of the f
 
 \section{Discussion}
 
-Using the values in Table \ref{tab:MeasuredValues} and Table \ref{tab:MaterialValues} the elastic modulus of the samples can be found using both the Halpin approach (Equation \ref{eq:halpin}) and simple equation (Equation \ref{eq:simple}). First, it is helpful to determine which set of equations are valid for this case. We assume for these calculations that the fibers are short, discontinuous and parallel to the load direction as seen through the pictures on the microscope. From this we can select the equations which are presented below. These equations require the \textit{critical fiber length}, \(\ell_c\), which is minimum length of fiber that is required to build up tensile stresses up in the fiber to the fracture strength. This is calculated using the following equation
+
+Using the values in Table \ref{tab:MeasuredValues} and Table \ref{tab:MaterialValues} the elastic modulus of the samples can be found using both the Halpin approach (Equation \ref{eq:halpin}) and simple equation (Equation \ref{eq:simple}). First, it is helpful to determine which set of equations are valid for this case. This requires the \textit{critical fiber length}, \(\ell_c\), calculated using the following.
 
 \begin{equation}
 \ell_c = \frac{\sigma^*_f r}{\tau^*_i}
 \end{equation}
 \\
 
-The interfacial shear strength, \(\tau^*_i\), is found to be equal to the shear yield of the matrix, \(\tau^y_m\), which is determined by
-
-\begin{equation}
-\tau^*_i = \tau^y_m = 0.5 \sigma^y_m 
-\end{equation}
-
-The value for the yield strength for the matrix, as mentioned prior, can be found from \ref{tab:MaterialValues} to be 60.91 MPa.
+The \textit{critical fiber length} for the PBT samples are approximately 787 microns, and since the average fiber lengths found in the samples (Table \ref{tab:MeasuredValues})0[ are lower than the critical length, it is valid to use the short fiber equations.
 
 \begin{equation} \label{eq:halpin}
 \frac{E^{short}_{\downarrow \downarrow}}{E_m} = \frac{1+\xi \eta V_f}{1-\eta V_f}
@@ -289,15 +284,13 @@ To calculate \(E_{\downarrow \downarrow}^{short}\) using the Halpin method, two 
 \xi = 2 \frac{l}{d} +40V^{10}_f
 \end{equation}
 \\
-The values for the Young's Modulus of the fiber and the matrix can be found in Table \ref{tab:MaterialValues} and the ratio of  length, \(\ell\), over diameter, \textit{d} is the aspect ratio which is determined from the results of measuring the fibers and diameters from Table \ref{tab:MeasuredValues}.
-\\
 The simple method of calculating \(E_{\downarrow \downarrow}^{short}\) is shown in the following equation.
 
 \begin{equation} \label{eq:simple}
 E^{short}_{\downarrow \downarrow} = \eta_l E_f V_f + E_m(1-V_f)
 \end{equation}
 
-The simple method is developed from the rule of mixtures for a unidirectional lamina and applying a length correction factor, \(\eta_l\) which is found using the following equations.
+This method requires the calculation of a \textit{length correction factor}, \(\eta_l\), found using the following equation.
 
 \begin{equation}
 \eta_l = 1- \left[\frac{\tanh 0.5\beta l}{0.5\beta l} \right]
@@ -307,22 +300,15 @@ The simple method is developed from the rule of mixtures for a unidirectional la
 \beta=\left[\frac{2G_m}{E_fr^2 ln(\frac{R}{r})}\right]^{1/2}
 \end{equation}
 \\
-The shear modulus for the matrix can be found in Table \ref{tab:MaterialValues}. The ratio of interfiber spacing, \textit{R} and fiber radius, \textit{r} can be found using the following equation from Hull \cite{hull}. This relationship is for hexagonally arranged fibers but because the ratio of \(\frac{R}{r}\) appearing in a logarithmic term in \(\beta\) , the hexagonal arrangement is acceptable to use as the result of the logarithmic term is sufficiently insensitive to fiber arrangement.
-
-\begin{equation}
-\frac{1}{V_f}=\left[\frac{R}{r}\right]^2
-\end{equation}
-\\
-
-The \textit{critical fiber length} for the PBT samples are approximately 815 microns, and since the average fiber lengths found in the samples (Table \ref{tab:MeasuredValues}) are lower than the critical length, it is valid to use following equation for fractures stress of the composite. The values for the fiber and matrix fracture strength can be found in Table \ref{tab:MaterialValues}.
+The fracture stress of the composites were also calculated using Equation \ref{eq:fracture}.
  
 \begin{equation} \label{eq:fracture}
 \sigma^*_{\downarrow \downarrow} = \left( \frac{l}{2l_c}\right) \sigma_f^* V_f + \sigma^*_m V_m
 \end{equation}
-\\
+
 
 The results of these calculations are shown in the following table.
-
+\\
 \onehalfspacing
 \begin{center}
 \captionof{table}{PBT9, PBT11, PBT12, and PBT14 Modulus and Fracture Stress} \label{tab:CalculatedValues}
@@ -343,8 +329,7 @@ Halpin vs. Simple, \% Difference & 6.07 & 5.12 & 3.18 & 0\\
 \singlespacing
 
 Comparing the results of these tensile tests to the analytical Halpin data in Table \ref{tab:CalculatedValues}, it is clear that there is some degree of error between the experimental and analytical results for PBT11 and PBT12. It was previously when doing the experiment that the tensile test for PBT12 was done incorrectly, leading to erroneous values for determining the Young's Modulus.
-\\
-\bigskip
+
 \onehalfspacing
 \begin{center}
 \captionof{table}{Tensile Test Data} \label{tab:ComparingValues}
@@ -363,7 +348,7 @@ PBT14 & 2558 & 2558 & 0 & 33.65 & 33.65 & 0 & 0\\
 \end{center}
 \singlespacing
 
-Plotting the experimental and analytical values of the Young's Modulus and the Fracture Stress helps to exemplify the differences between the experimental and analytical results, as shown in Figures \ref{FScompare} and \ref{ModulusCompare}.
+Plotting the measured and calculated values of the Young's Modulus and the Fracture Stress helps to exemplify the differences between the experimental and analytical results, as shown in Figures \ref{FScompare} and \ref{ModulusCompare}.
 
 \begin{figure}[H]
 \centering
@@ -379,12 +364,10 @@ Plotting the experimental and analytical values of the Young's Modulus and the F
 \label{ModulusCompare}
 \end{figure}
 
-As mentioned before the test for PBT12 lead to erroneous results for the experimental Young's Modulus value. Therefore, PBT12 has the largest error of 42.74\%. The rest of the analytical values for PBT9 and PBT11 are within a 6\% error of the experimental values. It can be seen from Figure \ref{FScompare} that as you go from PBT14 which contains no fibers to PBT12, 11 and  9, the Young's Modulus increases. This is attributed to the increasing volume fraction of E-Glass fibers. This can be predicted from the relationship in Equation \ref{eq:simple} for the calculation of Young's Modulus using the simple, Rule of Mixtures (ROM) approach. The experimental values should also show the same trend as the analytical values, but again, because of the error with testing PBT12, it shows a higher Young's Modulus than that of PBT11 which is not to be expected. This trend is plotted in Figure \ref{FScompare}.
-\singlespacing
-When calculating the Young's Modulus, there is some discrepancy between the Halpin approach and the simple approach. Both approaches try to use the distribution and geometry of fibers to determine the overall Young's Modulus of the resulting composite. The ROM method utilises a correction factor, \(\eta_l\), based on the fiber packing geometry to estimate the microstructure of the composite while the Halpin approach uses the aspect ratio, \(\frac{\ell}{d}\). The calculated values for both as displayed in Table \ref{tab:CalculatedValues} show that the simple method has a slightly larger value than the Halpin method by up to a 6\% difference but have the same trend as shown in Figure \ref{ModulusCompare}.
+As mentioned before the test for PBT12 lead to erroneous results for the tested Young's Modulus value. Therefore, PBT12 has the largest error of 36.44\%. The rest of the calculated values for PBT9 and PBT11 are within a 10\% error and yield results close to the tested values. It can be seen from Figure \ref{FScompare} that as you go from PBT14 which contains no fibers to PBT12, 11 and  9, the Young's Modulus increases. This is attributed to the increasing volume fraction of E-Glass fibers. This can be predicted from the relationship in Equation \ref{eq:simple} for the calculation of Young's Modulus using the simple approach. The tested values should also show the same trend as the calculated values, but again, because of the error with testing PBT12, it shows a higher Young's Modulus than that of PBT11 which is not to be expected. This trend is plotted in Figure \ref{FScompare}.
 \singlespacing
 
-In terms of fracture strength the difference between the analytical and experimental values is up to 40\% higher which is a significant difference from the experimental value. This results in a steeper trend line for the analytical values for fracture strength. There is a discrepancy in the trend of the experimental data. As seen in fracture strength values in Figure \ref{eq:fracture}, the experimental data for PBT11 displays a higher fracture strength than that of PBT9. From the relationship given by Equation \ref{eq:fracture} and the trendline for the experimental values in Figure \ref{eq:fracture}, the trend should be linearly increasing fracture strength with increasing volume fraction of fiber.
+In terms of Fracture Strength, the different between the calculated and tested values is within 15\%. The main source of error is with PBT11. It displays a higher Fracture Strength than that of PBT9. From the relationship given by Equation \ref{eq:fracture}, the trend should be an increasing Fracture Strength with increasing volume fraction of fiber. SHIT THERE MIGHT BE LIKE... A LIMIT OR SOME SHIT.
 
 
 \section{Conclusion}
@@ -399,6 +382,9 @@ R.A. Varin, \textit{"ME533 -- Composite Materials Laboratory Research Project}, 
 
 \bibitem{hull} 
 D. Hull, \textit{"An introduction to composite materials"}, Cambridge University Press, 1981
+
+\bibitem{asphaltAugerPic}
+Engineering Control Guidelines for Hot Mix Asphalt Pavers. (2014). Retrieved July 26, 2016, from https://www.cdc.gov/niosh/docs/97-105/
 
 \end{thebibliography}
 \end{document}
