@@ -240,7 +240,7 @@ The following figures show tensile tests performed for samples of PBT9, PBT11, P
 \end{figure}
 
 Observing these graphs, it is clear that the modulus is fairly consistent for each of the PBT samples, but when it comes to the fracture point, the test samples performed slightly differently. For PBT9, the fracture strength ranged from 97MPa up to 112MPa, with a strain at break of 4\% to 6\%. For PBT11, the data is more precise, with the fracture strength ranging from 110MPa to 113MPa, with a strain at break of 5\% to 6\%. For PBT12, the data is also fairly precise, with the fracture strength ranging from 60MPa to 67MPa, with a strain at break of 4.5\% to 5\%. Finally, PBT14 had precise fracture strengths (31MPa to 34MPa), but very diverse strains at break (40\% to 130\%).
-
+\singlespacing
 Table \ref{tab:MaterialValues} shows the mechanical material properties of the fiber (E-Glass) and matrix (PBT) materials. These will be used later on when calculating the Young's Modulus and Fracture Stress of the samples. The Young's Modulus for PBT is determined from Figure \ref{pbt14tensile} and the fracture strength and yield stress for PBT is obtained from observing the yield points of Figure \ref{pbt14fail}.
 
 \onehalfspacing
@@ -272,6 +272,7 @@ The interfacial shear strength, \(\tau^*_i\), is found to be equal to the shear 
 \begin{equation}
 \tau^*_i = \tau^y_m = 0.5 \sigma^y_m 
 \end{equation}
+\\
 
 The value for the yield strength for the matrix, as mentioned prior, can be found from \ref{tab:MaterialValues} to be 60.91 MPa.
 
@@ -289,13 +290,13 @@ To calculate \(E_{\downarrow \downarrow}^{short}\) using the Halpin method, two 
 \xi = 2 \frac{l}{d} +40V^{10}_f
 \end{equation}
 \\
-The values for the Young's Modulus of the fiber and the matrix can be found in Table \ref{tab:MaterialValues} and the ratio of  length, \(\ell\), over diameter, \textit{d} is the aspect ratio which is determined from the results of measuring the fibers and diameters from Table \ref{tab:MeasuredValues}.
-\\
-The simple method of calculating \(E_{\downarrow \downarrow}^{short}\) is shown in the following equation.
+
+The values for the Young's Modulus of the fiber and the matrix can be found in Table \ref{tab:MaterialValues} and the ratio of  length, \(\ell\), over diameter, \textit{d} is the aspect ratio which is determined from the results of measuring the fibers and diameters from Table \ref{tab:MeasuredValues}. The simple method of calculating \(E_{\downarrow \downarrow}^{short}\) is shown in the following equation.
 
 \begin{equation} \label{eq:simple}
 E^{short}_{\downarrow \downarrow} = \eta_l E_f V_f + E_m(1-V_f)
 \end{equation}
+\\
 
 The simple method is developed from the rule of mixtures for a unidirectional lamina and applying a length correction factor, \(\eta_l\) which is found using the following equations.
 
@@ -307,6 +308,7 @@ The simple method is developed from the rule of mixtures for a unidirectional la
 \beta=\left[\frac{2G_m}{E_fr^2 ln(\frac{R}{r})}\right]^{1/2}
 \end{equation}
 \\
+
 The shear modulus for the matrix can be found in Table \ref{tab:MaterialValues}. The ratio of interfiber spacing, \textit{R} and fiber radius, \textit{r} can be found using the following equation from Hull \cite{hull}. This relationship is for hexagonally arranged fibers but because the ratio of \(\frac{R}{r}\) appearing in a logarithmic term in \(\beta\) , the hexagonal arrangement is acceptable to use as the result of the logarithmic term is sufficiently insensitive to fiber arrangement.
 
 \begin{equation}
@@ -344,7 +346,7 @@ Halpin vs. Simple, \% Difference & 6.07 & 5.12 & 3.18 & 0\\
 
 Comparing the results of these tensile tests to the analytical Halpin data in Table \ref{tab:CalculatedValues}, it is clear that there is some degree of error between the experimental and analytical results for PBT11 and PBT12. It was previously when doing the experiment that the tensile test for PBT12 was done incorrectly, leading to erroneous values for determining the Young's Modulus.
 \\
-\bigskip
+
 \onehalfspacing
 \begin{center}
 \captionof{table}{Tensile Test Data} \label{tab:ComparingValues}
@@ -390,7 +392,7 @@ In terms of fracture strength the difference between the analytical and experime
 \section{Conclusion}
 
 Four types of PBT polymeric matrix-short glass composites were examined in this lab, PBT9, PBT11, PBT12, and PBT14 in order to test the applicability of the Rule-of-Mixtures in determining material properties of composite materials. Both tensile and microstructural testing were performed on these specimens to determine mechanical properties of the samples and to help in calculating the Young's Modulus and Fracture Strength of the composite materials. To calculate the Young's Modulus, two approaches were taken, the Halpin and simple approach. Both calculations for Young's Modulus and Fracture Strength used the Rule-of-Mixtures to balance both fiber and matrix material properties. It was found that the ROM method was  accurate when determining Young's Modulus (\% error of 3\% to 6\%), but tended to overestimate values when calculating the Fracture Strength (\% error of 19\% and over). The tensile tests for PBT12 lead to erroneous values for the Young's Modulus, yielding results that were higher than expected (the modulus should increase as \(V_f\) increases).
-
+\singlespacing
 The error in the use of ROM stems from the overall simplification of the composite geometry. When calculating the fracture stress, the presence of voids is not taken into account, which would reduce the overall strength of the material, due to the introduction of stress concentrations throughout the matrix, making the calculated values higher. 
 
 \newpage
