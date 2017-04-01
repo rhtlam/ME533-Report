@@ -24,7 +24,7 @@
 \doublespacing
 
 \title{\textbf{ME533 -- Applicability of the Composite Rule-of-Mixtures for the Description of the Mechanical Properties of PBT Polymeric Matrix-Short Glass Fiber System}}
-\author{Alan Wu, Jan Quijalvo, Ryan Lam}
+\author{Jan Quijalvo, Ryan Lam, Alan Wu}
 \date{\today}
 
 
@@ -132,7 +132,7 @@ From conducting the experiment and examining the microstructures of each of the 
 \item Volume fraction of voids (qualitative)
 \end{itemize}
 
-These values were determined by counting and measuring fiber lengths and diameters seen under the microscope and averaging the greatest 20 results. Figures \ref{pbt11longcount}, \ref{pbt11transcount}, \ref{pbt12longcount}, and \ref{pbt12transcount} show how this was done. In both samples, the fibers were counted and measured in various places around the sample area. For the longitudinal fibers, only fully revealed fibers were counted (rectangular ends). The volume fractions for the samples of PBT11 and PBT12 were calculated by determining the ratio of the cross-sectional area of the transverse fibers in the field of view of the microscope to the field of view of the microscope.
+These values were determined by counting and measuring fiber lengths and diameters seen under the microscope and averaging the greatest 20 results. Figures \ref{pbt11longcount}, \ref{pbt11transcount}, \ref{pbt12longcount}, and \ref{pbt12transcount} show some measurements on the microscope of longitudinal and transverse direction of PBT11 and PBT12. In both samples, the fibers were counted and measured in various places around the sample area. For the longitudinal fibers, only fully revealed fibers were counted (rectangular ends). The volume fractions for the samples of PBT11 and PBT12 were calculated by determining the ratio of the cross-sectional area of the transverse fibers in the field of view of the microscope to the field of view of the microscope. It should also be noticed that for the longitudinal sample that the length of the fibers are aligned in one direction for a majority of the longer fibers. This fact is used in further calculations to make assumptions for calculating the elastic modulus and fracture strength.
 
 \begin{figure}[H]
 \centering
@@ -381,11 +381,17 @@ Plotting the experimental and analytical values of the Young's Modulus and the F
 
 As mentioned before the test for PBT12 lead to erroneous results for the experimental Young's Modulus value. Therefore, PBT12 has the largest error of 42.74\%. The rest of the analytical values for PBT9 and PBT11 are within a 6\% error of the experimental values. It can be seen from Figure \ref{FScompare} that as you go from PBT14 which contains no fibers to PBT12, 11 and  9, the Young's Modulus increases. This is attributed to the increasing volume fraction of E-Glass fibers. This can be predicted from the relationship in Equation \ref{eq:simple} for the calculation of Young's Modulus using the simple, Rule of Mixtures (ROM) approach. The experimental values should also show the same trend as the analytical values, but again, because of the error with testing PBT12, it shows a higher Young's Modulus than that of PBT11 which is not to be expected. This trend is plotted in Figure \ref{FScompare}.
 \singlespacing
+
 When calculating the Young's Modulus, there is some discrepancy between the Halpin approach and the simple approach. Both approaches try to use the distribution and geometry of fibers to determine the overall Young's Modulus of the resulting composite. The ROM method utilises a correction factor, \(\eta_l\), based on the fiber packing geometry to estimate the microstructure of the composite while the Halpin approach uses the aspect ratio, \(\frac{\ell}{d}\). The calculated values for both as displayed in Table \ref{tab:CalculatedValues} show that the simple method has a slightly larger value than the Halpin method by up to a 6\% difference but have the same trend as shown in Figure \ref{ModulusCompare}.
 \singlespacing
 
-In terms of fracture strength the difference between the analytical and experimental values is up to 40\% higher which is a significant difference from the experimental value. This results in a steeper trend line for the analytical values for fracture strength. There is a discrepancy in the trend of the experimental data. As seen in fracture strength values in Figure \ref{eq:fracture}, the experimental data for PBT11 displays a higher fracture strength than that of PBT9. From the relationship given by Equation \ref{eq:fracture} and the trendline for the experimental values in Figure \ref{eq:fracture}, the trend should be linearly increasing fracture strength with increasing volume fraction of fiber.
+In terms of fracture strength the difference between the analytical and experimental values is up to 40\% higher which is a significant difference from the experimental value. This results in a steeper trend line for the analytical values for fracture strength. There is a discrepancy in the trend of the experimental data. As seen in fracture strength values in Figure \ref{FScompare}, the experimental data for PBT11 displays a higher fracture strength than that of PBT9. From the relationship given by Equation \ref{eq:fracture} and the trendline for the experimental values in Figure \ref{FScompare}, the trend should be linearly increasing fracture strength with increasing volume fraction of fiber.
+\singlespacing
 
+All these calculations do not take into account the presence of voids in the composite. The presence of voids in the composite affect the modulus since voids will effect the validity of the calculated volume fraction under the microscope. Voids also introduce stress concentrations during a tensile test of the composite which can cause the composite to fracture earlier than it should. This can be seen with the trend line in Figure \ref{FScompare} for the test data. PBT12 shows a lower fracture stress which may be attributed to the presence of much more voids than that of PBT11.
+\singlespacing
+
+Overall, in terms of the applicability of the composite rule of mixtures for comparison against experimental data, the rule of mixtures is an adequate way to estimate the Young's Modulus in the material but for fracture strength, it over-estimates the value by up to 40\% of the experimental value.
 
 \section{Conclusion}
 
