@@ -41,9 +41,9 @@
             \vspace{5mm}
             {\LARGE Jan Quijalvo (20456787)}\\
             \vspace{2mm}
-            {\LARGE Ryan Lam}\\
+            {\LARGE Ryan Lam (20473262)}\\
             \vspace{2mm}
-            {\LARGE Alan Wu}\\
+            {\LARGE Alan Wu (20421526)}\\
             \vspace{2mm}
             \LARGE 4B Mechanical Engineering\\[12ex]
             Prepared for\\
@@ -207,8 +207,8 @@ It should also be noticed that for the longitudinal sample that the length of th
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=.7\linewidth]{figures/PBT12_Long.png}
-\caption{PBT14 Material}
+\includegraphics[width=.7\linewidth]{figures/PBT14.png}
+\caption{PBT14 Material taken at 20x magnification}
 \label{pbt12longcount}
 \end{figure}
 
@@ -254,7 +254,6 @@ PBT14 & 2558 & 33.65 & 0\\
 \hline
 \end{tabular}
 \end{center}
-\singlespacing
 
 \subsection{Fiber and Matrix Data}
 Table \ref{tab:MaterialValues} shows the mechanical material properties of the fiber (E-Glass) and matrix (PBT) materials which are averages taken from the material properties presented in the introduction \cite{PBTmechProperties} \cite{course_notes}. These will be used later on when calculating the Young's Modulus and Fracture Stress of the samples. The Young's Modulus for PBT is determined from Figure \ref{pbt14tensile} and the fracture strength and yield stress for PBT is obtained from observing the yield points of Figure \ref{pbt14fail} in Appendix A.
@@ -378,7 +377,7 @@ The values for the fiber and matrix fracture strength can be found in Table \ref
 The results of the prior calculations are shown in the following table. The calculations show that there is a small difference of up to 6\% between calculations done using the Halpin approach versus those done using the simple calculation approach. Note that there is no difference between methods for PBT14 since it has no fibers and result in just the matrix young's modulus for both equations.
 
 It will be shown in the next section that the Young's Modulus values are much closer to the experimental results than the fracture strength values are.
-
+\newpage
 \begin{center}
 \captionof{table}{PBT9, PBT11, PBT12, and PBT14 Modulus and Fracture Stress} \label{tab:CalculatedValues}
 \begin{tabular}{p{3.5cm} || p{2.cm} | p{2.cm} | p{2.cm} | p{2.cm}}
@@ -412,6 +411,7 @@ The results of the calculations using the Halpin and simple approach are taken a
 \label{ModulusCompare}
 \end{figure}
 
+\newpage
 \begin{center}
 \captionof{table}{Comparison of Young's Modulus for Experimental vs. Analytical Calculations} \label{tab:ComparingModulus}
 \begin{tabular}{p{1.25cm} || p{1.5cm} | p{1.5cm} | p{1.5cm} | p{1.5cm} | p{1.5cm} | p{1.5cm}}
@@ -441,7 +441,7 @@ R^2_{Simple} = 0.9727
 \end{equation}
 
 Error with these calculations, especially in PBT12, compared to the experimental data can be attributed to the assumptions that all the fibers are the same length, are unidirectional and are bonded perfectly to the matrix. This is discussed in the verification section.
-
+\newpage
 \subsubsection{Fracture Strength}
 
 The fracture strength results of the experimental are plotted against the analytical calculation below. Note that PBT14 has no error since its modulus was used in the calculation for the rest of the materials.
@@ -563,6 +563,7 @@ The error in the use of ROM stems from the overall simplification of the composi
 
 \newpage
 \begin{thebibliography}{9}
+\raggedright
 
 \bibitem{pbt}
 \textit{Polybutylene Terephthalate(PBT)}. (n.d.). Retrieved March 25, 2017, http://www.dowell.com.hk/whatispbt.htm
