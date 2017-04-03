@@ -65,7 +65,8 @@
 
 \section{Introduction}
 This lab is meant to demonstrate the applicability of the composite rule of mixtures to describe the mechanical properties of PBT polymeric matrix, short glass fiber systems. 
-PBT is an abbreviation for Polybutylene Terephthalate, a semi-crystalline thermoplastic engineering plastic widely used as a matrix for glass reinforced composites. PBT is a widely used plastic as a result of many desirable properties including high dimensional stability, high hardness, stiffness, chemical resistance, and processability. Some common uses for PBT include injection molded parts, electrical parts enclosures, and automotive trim. Important mechanical properties necessary for composite property calculations include\cite{PBTmechProperties}:
+PBT is an abbreviation for Polybutylene Terephthalate, a semi-crystalline thermoplastic engineering plastic widely used as a matrix for glass reinforced composites. PBT is a widely used plastic as a result of many desirable properties including high dimensional stability, high hardness, stiffness, chemical resistance, and processability. Some common uses for PBT include injection molded parts, electrical parts enclosures, and automotive trim. Important mechanical properties necessary for composite property calculations include:
+
 
 \begin{table}[htb!]
 \caption{Some important mechanical properties}
@@ -77,39 +78,27 @@ PBT is an abbreviation for Polybutylene Terephthalate, a semi-crystalline thermo
 
 Young's Modulus [GPa] &  
 \begin{minipage}[t]{1\textwidth}
-	0.42 - 21.9
-\end{minipage}  
-\\
+	1.93 - 3
+\end{minipage}\\
 
-\hline
+Shear Modulus [GPa] &  
+\begin{minipage}[t]{1\textwidth}
+	0.6902 - 1.073
+\end{minipage}\\
 
 Yield Strength [MPa] &  
 \begin{minipage}[t]{1\textwidth}
-	21 - 100
+	50 - 60
 \end{minipage}\\ 
-\hline
-
-Ultimate Tensile Strength [MPa] &  
-\begin{minipage}[t]{1\textwidth}
-	8 - 165
-\end{minipage}\\ 
-
-\hline 
 
 \% Elongation [\%] &  
 \begin{minipage}[t]{1\textwidth}
-	1 - 3
+	0.5 - 3
 \end{minipage}\\ 
-\hline
 
-Hardness [RW-M] &  
+Density [g/\(cm^3\)] &  
 \begin{minipage}[t]{1\textwidth}
-	72 - 92
-\end{minipage}\\ 
-\hline
-Density [g/cm3] &  
-\begin{minipage}[t]{1\textwidth}
-	0.9 - 1.92
+	1.3 - 1.38
 \end{minipage}\\ 
 
 \end{tabular}
@@ -183,7 +172,7 @@ From conducting the experiment and examining the microstructures of each of the 
 \item Volume fraction of voids (qualitative)
 \end{itemize}
 
-These values were determined by counting and measuring fiber lengths and diameters seen under the microscope and averaging the greatest 20 results. Figures \ref{pbt11longcount}, \ref{pbt11transcount}, \ref{pbt12longcount}, and \ref{pbt12transcount} show some measurements on the microscope of longitudinal and transverse direction of PBT11 and PBT12. In both samples, the fibers were counted and measured in various places around the sample area. For the longitudinal fibers, only fully revealed fibers were counted (rectangular ends). 
+These values were determined by counting and measuring fiber lengths and diameters seen under the microscope and averaging the greatest 20 results. Figures \ref{pbt11longcount}, \ref{pbt11transcount}, \ref{pbt12longcount}, and \ref{pbt12transcount} show some measurements on the microscope of longitudinal and transverse direction of PBT11 and PBT12. In both samples, the fibers were counted and measured in various places around the sample area. For the longitudinal fibers, only fully revealed fibers were counted (rectangular ends). The longitudinal pictures are taken at 10x magnification and the transverse pictures are taken at 20x magnification.
 
 Using the fundametal theory of Rule of Mixtures, the volume fractions for the samples of PBT11 and PBT12 were calculated by determining the ratio of the cross-sectional area of the transverse fibers in the field of view of the microscope to the field of view of the microscope. This had to be done carefully and at multiple sections to get a good estimate of the volume fraction. Since the lab is based on whether the Rule of Mixtures is applicable to estimate the mechanical properties, this was a crucial step.
 
@@ -214,7 +203,7 @@ It should also be noticed that for the longitudinal sample that the length of th
 \label{pbt12transcount}
 \end{figure}
 
-The following table lists the respective values for PBT9, PBT11, PBT12, and PBT14. For PBT9 it was assumed that the fibers used in the composite would be the same as PBT11 and PBT12. The fiber lengths and diameters were simply calculated as the respective average of the same values for PBT11 and PBT12.  Note that the values for PBT9 fiber length and diameter are averaged from the values found for PBT11 and PBT12.
+Table \ref{tab:MeasuredValues} lists the respective values for PBT9, PBT11, PBT12, and PBT14. For PBT9 it was assumed that the fibers used in the composite would be the same as PBT11 and PBT12. The fiber lengths and diameters were simply calculated as the respective average of the same values for PBT11 and PBT12.  Note that the values for PBT9 fiber length and diameter are averaged from the values found for PBT11 and PBT12.
 
 It can also be noted that in the microscope pictures for PBT12, there are much more visible voids present in the matrix. Comparably, looking at PBT11, there is a smaller amount of voids and if there are voids seen, they are much smaller than that in PBT12. The presence of voids can have undesirable effects on the overall strength of the composite and are discussed later in this report. 
 
@@ -232,7 +221,7 @@ Sample & \multicolumn{1}{c|}{PBT9} & \multicolumn{1}{c|}{PBT11} & \multicolumn{1
 \(\ell (\mu m)\) & 294.14 & 299.33 & 288.94 & N/A\\
 \(d (\mu m) \) & 14.61 & 14.60 & 14.61 & N/A\\
 \(\ell /d\) & 20.14 & 20.50 & 19.77 & N/A\\
-\(V_v\) & Few,small voids & Few,small voids & Many,larger voids & No voids\\
+\(V_v\) & N/A & Few,small voids & Many,larger voids & No voids\\
 \hline
 \end{tabular}
 \end{center}
@@ -242,7 +231,7 @@ Sample & \multicolumn{1}{c|}{PBT9} & \multicolumn{1}{c|}{PBT11} & \multicolumn{1
 \subsection{Tensile Tests}
 The figures found in Appendix A graph the tensile tests performed for samples of PBT9, PBT11, PBT12, and PBT14 in the elastic regions and up to fracture. As expected, PBT9, 11 and 12 exemplify a composite behaviour, following a linear trend upwards in stress until a fracture point. It is also obvious from the stress-strain curve of PBT14  that the response is of a polymer until failure. The material yields and the stress drops down to a necking region until fracture after a certain amount of strain.
 
-Observing these graphs, it is clear that the modulus is fairly consistent for each of the PBT samples, but when it comes to the fracture point, the test samples performed slightly differently. For PBT9, the fracture strength ranged from 97MPa up to 112MPa, with a strain at break of 4\% to 6\%. For PBT11, the data is more precise, with the fracture strength ranging from 110MPa to 113MPa, with a strain at break of 5\% to 6\%. For PBT12, the data is also fairly precise, with the fracture strength ranging from 60MPa to 67MPa, with a strain at break of 4.5\% to 5\%. Finally, PBT14 had precise fracture strengths (31MPa to 34MPa), but very diverse strains at break (40\% to 130\%). These values are used later on for comparison against analytical results and so the averages of the three sampels for each test are tabulated in Table \ref{tab:TestValues}.
+Observing these graphs, it is clear that the modulus is fairly consistent for each of the PBT samples, but when it comes to the fracture point, the test samples performed slightly differently. For PBT9, the fracture strength ranged from 97MPa up to 112MPa, with a strain at break of 4\% to 6\%. For PBT11, the data is more precise, with the fracture strength ranging from 110MPa to 113MPa, with a strain at break of 5\% to 6\%. For PBT12, the data is also fairly precise, with the fracture strength ranging from 60MPa to 67MPa, with a strain at break of 4.5\% to 5\%. Finally, PBT14 had precise fracture strengths (31MPa to 34MPa), but very diverse strains at break (40\% to 130\%). These values are used later on for comparison against analytical results and so the averages of the three samples for each test are tabulated in Table \ref{tab:TestValues}. The experimental values for PBT14 are also used for further calculations which require matrix yield strength and fracture strength.
 
 \onehalfspacing
 \begin{center}
@@ -262,7 +251,7 @@ PBT14 & 2558 & 33.65 & 0\\
 \singlespacing
 
 \subsection{Fiber and Matrix Data}
-Table \ref{tab:MaterialValues} shows the mechanical material properties of the fiber (E-Glass) and matrix (PBT) materials. These will be used later on when calculating the Young's Modulus and Fracture Stress of the samples. The Young's Modulus for PBT is determined from Figure \ref{pbt14tensile} and the fracture strength and yield stress for PBT is obtained from observing the yield points of Figure \ref{pbt14fail} in Appendix A.
+Table \ref{tab:MaterialValues} shows the mechanical material properties of the fiber (E-Glass) and matrix (PBT) materials which are averages taken from the material properties presented in the introduction \cite{PBTmechProperties} \cite{course_notes}. These will be used later on when calculating the Young's Modulus and Fracture Stress of the samples. The Young's Modulus for PBT is determined from Figure \ref{pbt14tensile} and the fracture strength and yield stress for PBT is obtained from observing the yield points of Figure \ref{pbt14fail} in Appendix A.
 
 \onehalfspacing
 \begin{center}
@@ -384,7 +373,6 @@ The results of the prior calculations are shown in the following table. The calc
 
 It will be shown in the next section that the Young's Modulus values are much closer to the experimental results than the fracture strength values are.
 
-\newpage
 \begin{center}
 \captionof{table}{PBT9, PBT11, PBT12, and PBT14 Modulus and Fracture Stress} \label{tab:CalculatedValues}
 \begin{tabular}{p{3.5cm} || p{2.cm} | p{2.cm} | p{2.cm} | p{2.cm}}
@@ -418,7 +406,6 @@ The results of the calculations using the Halpin and simple approach are taken a
 \label{ModulusCompare}
 \end{figure}
 
-\newpage
 \begin{center}
 \captionof{table}{Comparison of Young's Modulus for Experimental vs. Analytical Calculations} \label{tab:ComparingModulus}
 \begin{tabular}{p{1.25cm} || p{1.5cm} | p{1.5cm} | p{1.5cm} | p{1.5cm} | p{1.5cm} | p{1.5cm}}
@@ -475,7 +462,7 @@ PBT14 & 33.65 & 33.65 & 0 & 0\\
 \end{center}
 \singlespacing
 
-In terms of fracture strength the difference between the analytical and experimental values is from 19\% up to 40\% higher which is a significant difference from the experimental value. This results in a steeper trend line for the analytical values for fracture strength. There is a discrepancy in the trend of the experimental data. As seen in fracture strength values in Figure \ref{FScompare}, the experimental data for PBT11 displays a higher fracture strength than that of PBT9. From the relationship given by Equation \ref{eq:fracture} and the trendline for the experimental values in Figure \ref{FScompare}, the trend should be linearly increasing fracture strength with increasing volume fraction of fiber. Speculations about this are made in the next section.
+In terms of fracture strength the difference between the analytical and experimental values is from 19\% up to 40\% higher which is a significant difference from the experimental value. This results in a steeper trend line for the analytical values for fracture strength. There is a discrepancy in the trend of the experimental data. As seen in fracture strength values in Figure \ref{FScompare}, the experimental data for PBT11 displays a higher fracture strength than that of PBT9. From the relationship given by Equation \ref{eq:fracture} and the trendline for the experimental values in Figure \ref{FScompare}, the trend should be linearly increasing fracture strength with increasing volume fraction of fiber. PBT12 also shows the largest error of 40.53\% of all the samples. Speculations about this are made in the next section.
 \singlespacing
 
 \subsubsection{Verification of Rule of Mixtures}
@@ -484,7 +471,7 @@ There are several possibilities for the error between the experimental data and 
 
 The volume fraction calculation can become a major source of error because if the volume fraction is overestimated or underestimated in any way, the fracture stress and Young's Modulus will follow suit. But because the calculated Young's Modulus for PBT11 and PBT9 was very close to the experimental, and followed the experimental trendline much more closely than the fracture stress, most of the error would be attributed to the presence of voids or improper processing of the composite which can lead to undesirable fracture stresses.
 
-All the calculations do not take into account the presence of voids in the composite and assume a perfect bond of fiber and matrix which can become a major source of error. The presence of voids in the composite affect the modulus since voids will effect the validity of the calculated volume fraction under the microscope. Voids also introduce stress concentrations and points of crack propagation during a tensile test of the composite which can cause the composite to fracture earlier than it should. Microscope pictures of PBT9 are also not given, and so if voids are to be found in the PBT9 material, this may lead to the speculation of why the fracture stress is lower in PBT9 than in PBT11 even when it has a higher reinforcement volume fraction. This can also be seen with the trend line in Figure \ref{FScompare} for the test data. PBT12 shows a lower fracture stress than the trend line which may be attributed to the presence of much more voids than that of PBT11. 
+All the calculations do not take into account the presence of voids in the composite and assume a perfect bond of fiber and matrix which can become a major source of error. The presence of voids in the composite affect the modulus since voids will effect the validity of the calculated volume fraction under the microscope. Voids also introduce stress concentrations and points of crack propagation during a tensile test of the composite which can cause the composite to fracture earlier than it should. Microscope pictures of PBT9 are also not given, and so if voids are to be found in the PBT9 material, this may lead to the speculation of why the fracture stress is lower in PBT9 than in PBT11 even when it has a higher reinforcement volume fraction. This can also be seen with the trend line in Figure \ref{FScompare} for the test data. PBT12 shows the largest error and a lower fracture stress than the trend line which may be attributed to the presence of much more voids than that of PBT11. 
 
 Another assumption made is that all the fibers are unidirectional, equal in length and are perfectly parallel to the load. Looking at the microscope pictures, the fibers look to be in one general direction but are obviously not going to be perfectly parallel to the load. The fiber lengths also vary approximately $\pm$ 80 $\mu m$ throughout different parts of the composite cross-section. This can lead to additional error both the Young's Modulus and fracture strength as they assume perfect composite structure for a tensile load.
 \singlespacing
@@ -568,7 +555,7 @@ The error in the use of ROM stems from the overall simplification of the composi
 \begin{thebibliography}{9}
 
 \bibitem{PBTmechProperties}
-MatWeb - The Online Materials Information Resource. (n.d.). Retrieved March 25, 2017, from http://www.matweb.com/search/DataSheet.aspxMatGUID=781bd0e9d0854fd5a919866c39ea3065
+\textit{AZOM Materials: Polybutylene Terephthalate ( PBT )}. (n.d.). Retrieved March 25, 2017, from http://www.azom.com/properties.aspx?ArticleID=1998
 
 \bibitem{manual}
 R.A. Varin, \textit{"ME533 - Composite Materials Laboratory Research Project}, 2017
