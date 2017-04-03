@@ -1,0 +1,520 @@
+\documentclass[11pt]{article}
+\usepackage{graphicx}
+\usepackage{lscape}
+\usepackage{pdfpages}
+\usepackage{scrextend}
+\usepackage{gensymb}
+\usepackage{subcaption}
+\usepackage{rotating}
+\usepackage[titletoc]{appendix}
+
+
+\setlength{\oddsidemargin}{0.3in}
+\setlength{\textwidth}{5.9in}
+\setlength{\topmargin}{-0.4in}
+\setlength{\textheight}{8.5in}
+
+\makeatletter
+    \setlength\@fptop{0\p@}
+\makeatother
+
+\begin{document}
+
+\title{\textbf{QuickSand: Sand Mold Printing Platform}}
+\author{Robert Weeks, Alan Wu, Jan Quijalvo, Ryan Lam}
+\date{\today}
+
+\makeatletter
+    \begin{titlepage}
+        \begin{center}
+        	\begin{figure}[h]
+        	\centering
+            \includegraphics[scale=0.3]{./figures/University-of-Waterloo}
+            \end{figure}
+            \vspace{20mm}
+            {\huge \bfseries  \@title }\\[2ex] 
+            \vspace{5mm}
+            {\LARGE Robert Weeks}\\
+            \vspace{2mm}
+            {\LARGE Alan Wu}\\
+            \vspace{2mm}
+            {\LARGE Jan Quijalvo}\\
+            \vspace{2mm}
+            {\LARGE Ryan Lam}\\
+            \vspace{2mm}
+            \LARGE 4B Mechanical Engineering\\[12ex]
+            Prepared for\\
+            ME 482 - Mechanical Engineering Design Project \\
+            Jim Baleshta\\
+            \centering
+            \vfill
+            {\large \@date}
+        \end{center}
+    \end{titlepage}
+\makeatother
+
+\noindent Dr. Hyock Ju Kwon \\
+\newline
+Department of Mechanical and Mechatronics Engineering\\
+University of Waterloo \\
+200 University Avenue West \\
+Waterloo, Ontario \\
+N2L 3G1 \\
+
+\noindent Dear Dr Kwon,\\
+
+This report, titled 'Sand Mold Printing', was prepared for our fourth year mechanical engineering design project. This project was a team effort by: Alan Wu, Ryan Lam, Jan Quijalvo, and Robert Weeks. The aim of this project is to develop a low cost binder jet printing platform that can print sand molds for casting. The purpose of this report is to summarize the progress of our design project thus far and to provide all of the data and documentation supporting the project as appendices.
+
+Our group would like to thank our advisors Prof. Sanjeev Bedi and Prof. Mihaela Vlasea for their help and guidance throughout the first half of the project. This report was written entirely by the group members listed above and has not received any previous academic credit at this or any other institution. We the undersigned take responsibility for this design.\\
+
+
+\noindent Sincerely,
+
+\begin{center}
+\includegraphics[width=.4\textwidth]{figures/Alan}
+\includegraphics[width=.4\textwidth]{figures/Ryan}
+
+Alan Wu \hspace{40mm} Ryan Lam
+\end{center}
+
+
+\begin{center}
+\includegraphics[width=.4\textwidth]{figures/Jan}
+\includegraphics[width=.4\textwidth]{figures/Rob}
+
+Jan Quijalvo \hspace{35mm} Robert Weeks
+\end{center}
+\newpage
+
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+\listoftables
+\newpage
+
+
+\section{Mechanical Design}
+
+\subsection{Chassis}
+The chassis supports and holds together all sub-assemblies within the printer. Due to the required tolerances of the layer height as well as x-y positional accuracy, maximizing chassis stiffness and minimizing deflection was strongly considered. 6061-T6 aluminum extrusions were chosen to be used for major structural chassis components. The aluminum extrusions are extremely modular as they can be milled to size, joined with L-brackets, as well as adding accessories after assembly using the T-Slot mechanism.
+
+\subsubsection{Chassis Assembly}
+Purchased L-brackets and tapped bolts were used to fasten frame components together. With the print platform on the baseplate, the frame was assembled with a datum at the baseplate. The baseplate is fastened to the corner posts through four socket head cap screws tapped into the corresponding corner posts. In order to prevent the system from being over constrained in the case of stack tolerancing, the midplate was not fastened to the four supporting posts. Instead, four dowel pins are press fitted into the post, and slide fitted into the midplate. (FIGURE AF showing the CHASSIS - point out the dowel pins and tapped holes)
+
+\subsection{Middle Level}
+The middle level consists of the midplate, sidewalls, build/feed bin, platform assembly, and a dust bin (Figure \ref{midLevelASY}):
+
+\begin{figure}[htp]
+\centering
+\includegraphics[scale=0.5]{figures/middleASY.png}
+\caption{Middle level assembly.}
+\label{midLevelASY}
+\end{figure}
+
+\subsubsection {Midplate and Sidewalls}
+The midplate and sidewalls create the enclosure for the box and platform assemblies. Ideally, both the midplate and sidewalls would be flat in order to form a square opening for the bin to slide into. During normal operation, there will be the weight of both the box and substrate loading onto the midplate and sidewalls. 6061-T6 aluminum was chosen for the material of both the midplate and sidewalls to support this weight without significant deflection. To ensure the bins slide in and out of square opening without significant friction, low friction UHMW polyethelene strips were mounted to all sidewalls and midplate faces. 
+\subsubsection {Fabrication of Middle Level}
+The midplate is made of 6061-T6 aluminum machined to 6mm thick with a flatness tolerance of 0.1mm/m and the sidewalls are made of 1/4" 6061-T6 plate. Reamed dowel pin and threaded through holes were made on the conventional mill. During the material procurement stage, it was observed that the flatness tolernace of the sidewalls were not as high as the midplate. Due to cost constraints and lack of sponsorship of these plates, it was decided to proceed with low tolernace flatness sidewalls with a secondary edge milling procedure to ensure the box enclosure to be as square as possible.
+\subsubsection {Build/Feed Bin}
+The build and feed boxes are identical in construction. The four interior faces of the bin create a rectangular prism - a channel for the platform to travel along. Therefore, it is impotant to ensure the interior walls are as flat and as straight as possible to prevent:
+\begin{itemize}
+\item Gap between platform and bin
+Substrate may leak and fall onto midplate, causing z inaccuracy
+\item Interference between platform and box
+Platform will not be able to actuate with excessive interference 
+\end{itemize}
+
+When deciding how to construct the bin, two options were considered:
+\begin{itemize}
+\item Four precision milled plates fastened together with dowel pins and cap screws
+\item Extruded aluminum square tubing
+\end{itemize}
+
+Advantages and disadvantages of each are listed below:
+
+\begin{table}[htb!]
+\caption{Bin Design Comparison}
+\label{tab:binDesign}
+\begin{center}
+\begin{tabular}{ p{2.5cm} || p{5cm} | p{5cm} }
+& \textit{\textbf{Advantages}} & \textit{\textbf{Disadvantages}} \\
+\hline
+\hline
+
+Four Walls &  
+\begin{minipage}[t]{1\textwidth}
+	\begin{itemize}
+	\setlength\itemsep{-.25em}
+	\item Sharp inner corners
+	\item Excellent flatness
+	\item Excellent straightness
+	\item Customizable sizing
+	\vspace{.2cm}
+	\end{itemize}
+\end{minipage} & 
+\begin{minipage}[t]{1\textwidth}
+	\begin{itemize}
+	\setlength\itemsep{-.25em}
+	\item Difficult to fabricate 
+	\item Expensive material costs
+	\end{itemize}
+\end{minipage} \\
+
+\hline
+
+Extruded Square Tubing &  
+\begin{minipage}[t]{1\textwidth}
+	\begin{itemize}
+	\setlength\itemsep{-.25em}
+	\item Low cost
+	\item Cut to size
+	\end{itemize}
+\end{minipage} & 
+\begin{minipage}[t]{1\textwidth}
+	\begin{itemize}
+	\setlength\itemsep{-.25em}
+	\item Inner radius
+	\item Low flatness tol.
+	\item Low straightness tol.
+	\vspace{.2cm}
+	\end{itemize}
+
+\end{minipage} \\
+\end{tabular}
+\end{center}
+\end{table}
+
+A prototype bin was fabricated using the four wall method, but due to material costs and time constraints, the team proceeded with using extruded aluminum square tubing for the bin. The top and bottom faces of the extruded tubing were faced parallel of each other, and holes tapped for handles to be installed. Four dowel pin holes were installed to be used as end stops for the platform.  (FIGURE BELOW SHOWING PIC OF BOXAF left, Box Right)
+
+\subsubsection{Build/Feed Platform}
+The build/feed platform controls the z-movement of the printer, and slides along the axis of the extruded square tubing. It consists of the coupler assembly, platform assembly, and the seal.
+\begin{itemize}
+\item Coupler assembly (SEE FIGURE BELOW BITCH)
+	\begin{itemize}
+	\item In order to accomodate removeable bins, it is required for the motor to disconnect from the z-platform during bin removal. It is important to note that in order for a non-captive nut stepper motor to advance the lead screw in the z-direction, the lead screw must be constrained to not allow for any rotation about the z-axis. To achieve this, the coupler assembly features squared sides. 
+
+FIGURE AF
+
+Fabrication of the coupler involved turning a cylindrical block of 6061-T6 aluminum followed by milling of edges as well as tapping set screw holes. In the interest of time, the coupler plate was 3D printed using nylon. A fully functinoal prototype would require the coupler plate material to withsand higher heat, and an appropriate material would be substituted (aluminum). 
+	\end{itemize}
+\item Platform assembly
+	\begin{itemize}
+	\item The platform assembly consists of a main platform, a platform cover and the motor assembly. The main platform features a step along it's perimeter, used as a seat for the seal. The platform cover is then fastened to the main platform to sandwich the seal in place.
+
+FIGURE AF Platform, with seal, and motor mounted
+
+Fabrication of the coupler involved milling aluminum plates and tapping features. 
+	\end{itemize}
+
+A non-captive nut lead screw NEMA 17 motor was used for each of the build/feed zones. When specifying the motor size, it was important to ensure specifying a motor strong enough to be able to drive the weight of the sand and platform assembly without skipping. (See Appendix E for calculations).
+\item Seal
+	\begin{itemize}
+	\item Sandwiched between the main platform and the platform cover, the main purpose of the seal is to prevent substrate from escaping through the gap between the bin and the platform. Three materials were considered when designing the seal: 
+	\end{itemize}
+
+\begin{table}[htb!]
+\caption{Seal Design Comparison}
+\label{tab:sealDesign}
+\begin{center}
+\begin{tabular}{ p{2.5cm} || p{5.25cm} | p{4.75cm} }
+& \textit{\textbf{Advantages}} & \textit{\textbf{Disadvantages}} \\
+\hline
+\hline
+
+Rubber Strips &  
+\begin{minipage}[t]{1\textwidth}
+	\begin{itemize}
+	\setlength\itemsep{-.25em}
+	\item Cheap
+	\item Good on smooth surfaces
+	\vspace{.2cm}
+	\end{itemize}
+\end{minipage} & 
+\begin{minipage}[t]{1\textwidth}
+	\begin{itemize}
+	\setlength\itemsep{-.25em}
+	\item Bad with low gap tol.
+	\item Bad on rough surfaces
+	\end{itemize}
+\end{minipage} \\
+
+\hline
+
+Graphite Packing Seal &  
+\begin{minipage}[t]{1\textwidth}
+	\begin{itemize}
+	\setlength\itemsep{-.25em}
+	\item Waterproofing
+	\item Size availability
+	\end{itemize}
+\end{minipage} & 
+\begin{minipage}[t]{1\textwidth}
+	\begin{itemize}
+	\setlength\itemsep{-.25em}
+	\item Leaves graphite marks
+	\item Low compliance
+	\vspace{.2cm}
+	\end{itemize}
+\end{minipage} \\
+
+\hline
+
+Felt &  
+\begin{minipage}[t]{1\textwidth}
+	\begin{itemize}
+	\setlength\itemsep{-.25em}
+	\item Cheap
+	\item High compliance
+	\end{itemize}
+\end{minipage} & 
+\begin{minipage}[t]{1\textwidth}
+	\begin{itemize}
+	\setlength\itemsep{-.25em}
+	\item Custom fitment
+	\vspace{.2cm}
+	\end{itemize}
+
+\end{minipage} \\
+\end{tabular}
+\end{center}
+\end{table}
+
+Felt was selected to move forward as the seal of choice. It proved to be difficult to install, but effectively sealed the gap between the platform assembly and the bin walls.
+
+\end{itemize}
+
+\newpage
+
+\newpage
+\section{Material Design}
+As well as the electro-mechanical systems, a sand-casted mold requires both a binder and a substrate. In the sandcasting industry, a fine silica based sand is typically mixed with a sodium silicate binder to form the mold. 
+
+\subsection{Substrate}
+The substrate is the powder material which when mixed with the binder, forms a mold that can be used to cast parts. Regardless of the base material, whether it be gypsum, sand, or ceramics, there are a three key attributes that will affect mold quality:
+\begin{itemize}
+	\item Grain Size: 
+		\begin{addmargin}[1em]{1em}
+		Larger grain sizes will result in rougher surface finish of the final part and lower print quality. Finer grain sizes will result in higher part quality through smoother surface finishes, however are more problematic when it comes to sealing issues as well as airborne particles. Generally speaking, gypsum powder and plaster of paris particles are much smaller than those of silica sand. 
+		\end{addmargin}
+	\item Grain Geometry
+		\begin{addmargin}[1em]{1em}
+		The shape and geometry of individual grains affect the casted part quality. When adding a new layer of substrate, the flatness of each layer is dictated by both the grain size as well as the grain geometry. Jagged non-spherical grains will have less fluidity, whereas spherical grains will act more fluid-like, resulting in a smooth applied layer. Furthermore, grain shapes may affect the porosity of the sand, where substrates with smaller grain size are more easily packable preventing molten metal from seeping through gaps.
+		\end{addmargin}
+	\item Temperature Resistance
+		\begin{addmargin}[1em]{1em}
+		The goal of the project is to be able to form molds that can be casted with low melting temperature metals. In order for the mold to not deteriorate, the mold substrate must be able to withstand temperatures of molten aluminum and castable stainless steel - around 760$^{\circ}$C.
+		\end{addmargin}
+\end{itemize}
+
+\subsection{Binder}
+The binder is a liquid that holds individual substrate grains together and forms the shape. Binder will be selectively dispensed on the substrate through an inkjet nozzle. Coming into 4B (ME482), the shortlist of binders to test included:
+\begin{itemize}
+	\item Furan Resin: Commonly used for sandcasting molds
+	\item Phenolic: A thermosetting polymer used for mounting material samples
+	\item Sodium Silicate: Commonly used sandcasting binder used to bind silica sand particles together
+\end{itemize}
+
+\subsubsection {Materials Testing}
+Due to time and procurement constraints, the team had decided to move the combination of silica sand and sodium silicate into the materials testing process. Because it has been widely proven in the sandcasting industry, it is lowest risk when compared to the other combinations. Initial testing was done in the UW Additive Manufacturing lab, where different viscosities of sodium silicate (mixing different amounts of water) were being dispensed through a Nordson syringe dispenser system. (Figure \ref{sodiumSilicateDispense}).
+
+\begin{figure}[htp]
+\centering
+\includegraphics[scale=0.05]{figures/sodiumSilicateDispense}
+\caption{Sodium silicate dispensed onto silica sand.}
+\label{sodiumSilicateDispense}
+\end{figure}
+
+Through testing with the syringe dispense, it was noted that any downtime would result in a clogged nozzle, regardless of viscosity. Therefore, the team has decided to move forward with a commercially available binder made by Z-Corp for their 3D binder jet printers. 
+
+\newpage
+
+
+
+\subsection{Risk and Mitigation Plan}
+Please refer to Appendix C for the risk register.
+
+
+\section{Design Reflection}
+\begin{itemize}
+\item Alan W.
+	\begin{addmargin}[1em]{1em}
+	Reflecting back on the project, I would have changed the bin insertion removal design as well as the coupler assembly. For the UHMW strips, due to unexpected low tolerances from material suppliers, a significant amount of post processing of the strips were done to ensure smooth bin insertion/removal. When ordering materials for the sidewalls, - a dimensionally critical component - emphasis will be put on purchasing higher flatness tolerance stock materials to reduce post processing time. 
+When inserting and removing the box, it was noted that the system was very sensitive to small changes in z-height, where a small change could render the system useless. If re-designed, I would implement a system involving electromagnets attaching to the platform to make up for any tolerance stack-ups. 
+	\end{addmargin}
+\end{itemize}
+
+
+\section{ALAN WU Lessons Learned}
+I thoroughly enjoyed ME482. As expected, with the symposium setting a hard deadline for a working prototype, the final months of the project were both very stressful and very rewarding at the same time. Though we chose a difficult project with a large scope, I am glad that we did as we worked together to solve many critical problems in a very short amount of time. Through necessity, stress, and curiosity, I had a chance to sharpen old skills as well as learn many new skills. 
+I appreciated designing components using challenging concepts learned in earlier years at the University of Waterloo, and I am very glad to have learned basic static simulations to verify design decisions. Through project management as well as fabricating components, I was albe to further develop my skills with regards to time management and estimation of job lead times. Through writing the report, I was able to learn LaTex. 
+I am very glad to have worked with all members of the team. I have learned a lot from each of the members, both social and academic as we worked together to achieve a common goal. 
+Overall, I have noted some key areas where I will be working towards improving: 
+\begin{itemize}
+\item Scope generation
+	\begin{addmargin}[1em]{1em}
+	I remember in 4A when we were brainstorming features to have on the project, where everything seemed like a simple concept to implement. I have learned again and again that many things seem easy until you actually do it. With conflicting schedules from both within and outside of ME482, many of these simple features were not so simple in the end.
+	\end{addmargin}
+\item Procurement
+	\begin{addmargin}[1em]{1em}
+	Many of our componenets were ordered internationally. Without purchasing extra components for contingency, we were often rolling dice with regards to whether or not we would have a working prototype by the symposium. In the future, despite spending more money, I would advocate to order extras for a sense of relief.
+	\end{addmargin}
+\item Time Management
+	\begin{addmargin}[1em]{1em}
+	In March, it was clear that we had a tight schedule when it came to fabrication of parts. Our initial goal was to have a clear CAD lock, and fabricate everything at the end without major changes to CAD during the fabrication process. If given a chance to re-design this process, I would have had minor fabrication during the CAD process in order to tackle any potential critical path problems before they arise in the final fabrication stage. 
+	\end{addmargin}
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{appendices}
+\newpage
+\vspace*{\fill}
+\begin{center}
+\section{Engineering Design Specification}
+\label{engineeringDesignSpecifications}
+\end{center}
+\vspace*{\fill}
+
+\includepdf[pages={1},landscape]{PDFs/Engineering_Design_Spec_000}
+
+\includepdf[pages={1,2},landscape]{PDFs/Engineering_Design_Spec_001}
+
+\newpage
+\vspace*{\fill}
+\begin{center}
+\section{Engineering Drawings}
+\end{center}
+\vspace*{\fill}
+
+\includepdf[pages={1},landscape]{PDFs/6112K102}
+
+\includepdf[pages={1},landscape]{PDFs/Bearing_Block}
+
+\includepdf[pages={1},landscape]{PDFs/Feeder_Bracket}
+
+\includepdf[pages={1},landscape]{PDFs/L_Bracket}
+
+\includepdf[pages={1},landscape]{PDFs/Pulley_Post}
+
+\includepdf[pages={1},landscape]{PDFs/R_Bracket}
+
+\includepdf[pages={1},landscape]{PDFs/Shaft_Block}
+
+\includepdf[pages={1},landscape]{PDFs/Shaft_Block_Bracket}
+
+\includepdf[pages={1,2},landscape]{PDFs/Gantry_Proto}
+
+\includegraphics[width=\textwidth]{figures/GantryFeedCalc1}
+
+\includegraphics[width=\textwidth]{figures/GantryFeedCalc2}
+
+\pagebreak
+
+\vspace*{\fill}
+\begin{center}
+\section{Design Project Management}
+\end{center}
+\vspace*{\fill}
+
+\newpage
+\includepdf[pages={1},landscape]{PDFs/riskRegister}
+
+
+\begin{sidewaysfigure}[h]
+\centering
+\includegraphics[scale=.5]{figures/workbreakdown_schedule.png}
+\caption{Work Breakdown Structure.}
+\label{WBS}
+\end{sidewaysfigure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=1.0]{figures/wbs_hours.png}
+\caption{Work Breakdown Structure Hours.}
+\label{WBS_hours}
+\end{figure}
+
+\begin{sidewaysfigure}[h]
+\centering
+\includegraphics[scale=.7]{figures/actualhours.png}
+\caption{Actual Hours.}
+\label{ActualHours}
+\end{sidewaysfigure}
+
+\begin{sidewaysfigure}[h]
+\centering
+\includegraphics[scale=1.0]{figures/spent_to_date.png}
+\caption{Amount spent to date.}
+\label{SpentDate}
+\end{sidewaysfigure}
+
+\begin{sidewaysfigure}[h]
+\centering
+\includegraphics[scale=.9]{figures/budget_total.png}
+\caption{Total Budget.}
+\label{BudgetTotal}
+\end{sidewaysfigure}
+
+
+
+\clearpage
+\section{Lessons Learned}
+\paragraph*{Alan W.}
+Throughout ME481 I learned about many aspects of engineering projects that are seen in the industry. I really valued the needs analysis of the project, where we were forced to think in great depth about a problem that needs to be solved. Through this thought method, we are able to lock down the true need of the casting industry and plan towards designing the prototype.
+
+I thoroughly valued that concepts taught in earlier years of Mechanical Engineering were applicable for this project. In ME340 - Manufacturing Processes, we learned about the basics of casting, which was directly applicable to this project. Using the knowledge learned from that course, we were able to expand and come up with ideas to improve the current methods of sand casting.
+
+Through designing and building the initial prototype seen in the Appendix, I was able to further develop my fixture designing and fabrication skills. Throughout the fabrication, re-designs were called for as making certain features proved to be more difficult than necessary. I was able to develop machining skills and speed through making the parts in the prototype.
+
+Through writing this report, I learned how to structure and write reports in \LaTeX. I value this skill very much as it can be applied all future report writing assignments to simplify and streamline collaborative report writing. Furthermore, we used GitHub to organize the file management of this report. I value the skill of using GitHub very much as well as I can apply this to future school and work terms.
+
+Overall, I thoroughly enjoyed and valued all aspects of this course, and very much look forward to ME482 where we will be focusing on building and testing the final prototype after freezing designs in the first month.
+
+\newpage
+\paragraph*{Ryan L.}
+Needs Analysis and Conceptual Design both proved to be very valuable. One of the biggest hurdles in this project was simply picking a problem space to work in. After lengthy brainstorming, we had arrived at our binder jet printing idea. 
+
+	Planning proved to be very important as time became more of a constraint. Nearing the end of the project, many deadlines were coming up, not only for this project, but for all out courses. Strict time management was needed to make sure everything that needed to be done was done.
+
+	Skills learned from this project include machining knowledge, project planning and management, and team organization. From the time spent machining, I’ve learned about the capabilities of the machines available for use and the different processes that go into creating a part. From organizing and planning this project, I’ve learned that an effective project plan and timeline is essential to achieving systematic progress and when assigning tasks to team members, I‘ve learned to play to everyone’s strengths and to keep a constant overview of the team’s progress and work and ensure that everyone is on task and on time as they should be.
+
+\newpage
+\paragraph*{Jan Q.}
+This design project provided more insight into more in-depth mechanical design and managing the design of a final product. The project provided insight into needs analysis, engineering specifications and product validation and testing. This selection of the project and the scope of it proved to be an important part of the project considering that binder jet printing is a mechatronics system that combines mechanical design, electrical design and materials design.
+Deciding on how to handle such a large project proved to be very difficult and time became an important factor when deciding what aspects of the project should be figured out first.
+
+It was learned that testing, validation and doing preliminary experiments is necessary to determine initial specifications for the project which are feasible and make the project more manageable. Having data is important to make major decisions on how the product should be developed and be designed overall.
+
+Skills that were learned are time management, machining practices, project planning, procurement and more detailed design on pulleys and bearings. Time management and project planning skills were learned from managing the work breakdown structure and budget for the project which was very important in managing the time as well as resources that were available to us. From fabricating the final product, basic machining skills when using the mill were used. These skills play an important role in the overall success in the project and eventually in the workplace.
+
+\newpage
+\paragraph*{Robert W.}
+The main takeaway I got from this project is the importance of getting an early start on every component of the project and to plan with lots of contigency. Although we were able to meet our timeline, we were required to put a lot more time into the project near the end of the term compared to the beginning. Furthermore some parts of the project that we're actually quite critical such as the viscosity measurements were put off to a later date due to unexpected setbacks. From this, I learned that we should always have some sort of backup in place so we are not stuck scrambling last minute for a solution.
+
+Another lesson learned during this project is to keep all of your stakeholders up to date on what is going on and what difficulties you are currently encountering. We could have certainly saved some time on some aspects of our design by consulting with our advisor earlier than we did. 
+
+\end{appendices}
+
+\newpage
+\begin{thebibliography}{9}
+\bibitem{proposal} 
+Ryan Lam, Jan Quijalvo, Robert Weeks and Alan Wu. 
+Design Project Proposal. 
+Unpublished manuscript, University of Waterloo, 2016.
+
+\bibitem{asphaltAugerPic}
+Engineering Control Guidelines for Hot Mix Asphalt Pavers. (2014). Retrieved July 26, 2016, from https://www.cdc.gov/niosh/docs/97-105/
+
+\end{thebibliography}
+\end{document}
